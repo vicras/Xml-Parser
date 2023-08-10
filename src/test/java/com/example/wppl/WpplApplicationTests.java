@@ -5,19 +5,30 @@ import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.boot.test.web.client.TestRestTemplate;
 
 @SpringBootTest
 class WpplApplicationTests {
 
     @Autowired
-    private WpplParser parser;
+    private WppParallelReader parallelreader;
+    @Autowired
+    private WpplReader reader;
+
     @Test
-    void contextLoads() throws Exception {
-        ParseResult parseResult = parser.parse2();
+    void parseFile() throws Exception {
+        var fileName = "WP_PL.xml";
+        ParseResult parseResult = reader.read(fileName);
         Assertions.assertNotNull(parseResult);
-        Assertions.assertEquals(3,parseResult.e1WPA01s.size());
-        Assertions.assertEquals(4,parseResult.ediDc40s.size());
+        Assertions.assertEquals(3, parseResult.e1WPA01s.size());
+        Assertions.assertEquals(4, parseResult.ediDc40s.size());
     }
 
+    @Test
+    void parseFileParallel() throws Exception {
+        var fileName = "WP_PL.xml";
+        ParseResult parseResult = parallelreader.read(fileName);
+        Assertions.assertNotNull(parseResult);
+        Assertions.assertEquals(3, parseResult.e1WPA01s.size());
+        Assertions.assertEquals(4, parseResult.ediDc40s.size());
+    }
 }

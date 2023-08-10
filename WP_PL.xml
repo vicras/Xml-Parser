@@ -61,7 +61,6 @@
             <CRETIM>130234</CRETIM>
             <SERIAL>20230808130231</SERIAL>
         </EDI_DC40>
-        ...
         <EDI_DC40 SEGMENT="1">
             <TABNAM>EDI_DC40</TABNAM>
             <MANDT>500</MANDT>
@@ -129,7 +128,6 @@
                 <LFDNR>0001</LFDNR>
             </E1WPA03>
         </E1WPA01>
-        ...
         <E1WPA01 SEGMENT="1">
             <FILIALE>0000004821</FILIALE>
             <AENDKENNZ>MODI</AENDKENNZ>
