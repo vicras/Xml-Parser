@@ -45,7 +45,7 @@
 Тесты требуют подключение PostgeSQL DB. Параметры подключений должны быть прописаны в [application.yaml](src%2Ftest%2Fresources%2Fapplication.yaml)
 
 Был добавлен [BigFileGenerator.java](src%2Ftest%2Fjava%2Fcom%2Fexample%2Fgenerator%2FBigFileGenerator.java) позволяющий сгенерировать тестовый входной файл на любое количество записей.  
-Для файлов размером 10000 записей и 100000 были проведены замеры скорости работы (Чтение, Парсинг).  
+Для файлов размером 1, 10000 и 100000 записей были проведены замеры скорости работы (Чтение, Парсинг).  
 Для каждой ячейки было взято лучшее время из нескольких запусков.  
 
 | Размер файла   | BufferFileReader | FullFileReader | ParallelReader (2 потока) | ParallelReader (4 потока) | ParallelReader (8 потоков) |
