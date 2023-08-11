@@ -1,0 +1,10 @@
+spring:
+  flyway:
+    enabled: true
+    baselineOnMigrate: true
+
+  datasource:
+    driver-class-name: org.postgresql.Driver
+    url: jdbc:postgresql://0.0.0.0:5555/postgres_v3?useLocalSessionState=true&useLocalTransactionState=true
+    username: postgres
+    password: postgres

@@ -74,11 +74,11 @@ public class ActiveElementHandler {
         }
         if (EDI_DC_40.equalsIgnoreCase(poppedElement)) {
             parseResult.ediDc40s.add(activeElement.ediDc40);
-            activeElement.e1wpa01 = null;
+            activeElement.ediDc40 = null;
         }
         if (E_1_WPA_01.equalsIgnoreCase(poppedElement)) {
             parseResult.e1WPA01s.add(activeElement.e1wpa01);
-            activeElement.ediDc40 = null;
+            activeElement.e1wpa01 = null;
         }
     }
 

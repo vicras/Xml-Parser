@@ -29,7 +29,7 @@ public class WpplReader {
     public ParseResult read(String filePath) throws IOException, XMLStreamException {
         var parseResult = new ParseResult();
         AsyncXMLStreamReader<AsyncByteArrayFeeder> parser = inputF.createAsyncForByteArray();
-        parseResult = readFileLazy(filePath, parseResult, parser);
+        parseResult = fullFileRead(filePath, parseResult, parser);
         parser.close();
         return parseResult;
     }

@@ -24,7 +24,7 @@
         <EDI_DC40 SEGMENT="1">
             <TABNAM>EDI_DC40</TABNAM>
             <MANDT>500</MANDT>
-            <DOCNUM>0000017115154750</DOCNUM>
+            <DOCNUM>0000017115154751</DOCNUM>
             <DOCREL>701</DOCREL>
             <STATUS>30</STATUS>
             <DIRECT>1</DIRECT>
@@ -44,7 +44,7 @@
         <EDI_DC40 SEGMENT="1">
             <TABNAM>EDI_DC40</TABNAM>
             <MANDT>500</MANDT>
-            <DOCNUM>0000017115154750</DOCNUM>
+            <DOCNUM>0000017115154752</DOCNUM>
             <DOCREL>701</DOCREL>
             <STATUS>30</STATUS>
             <DIRECT>1</DIRECT>
@@ -64,7 +64,7 @@
         <EDI_DC40 SEGMENT="1">
             <TABNAM>EDI_DC40</TABNAM>
             <MANDT>500</MANDT>
-            <DOCNUM>0000017115154750</DOCNUM>
+            <DOCNUM>0000017115154753</DOCNUM>
             <DOCREL>701</DOCREL>
             <STATUS>30</STATUS>
             <DIRECT>1</DIRECT>
@@ -76,7 +76,7 @@
             <SNDPRN>ER2CLNT500</SNDPRN>
             <RCVPOR>A000000064</RCVPOR>
             <RCVPRT>KU</RCVPRT>
-            <RCVPRN>0000004821</RCVPRN>
+            <RCVPRN>0000004822</RCVPRN>
             <CREDAT>20230808</CREDAT>
             <CRETIM>130234</CRETIM>
             <SERIAL>20230808130231</SERIAL>
@@ -106,7 +106,7 @@
             </E1WPA03>
         </E1WPA01>
         <E1WPA01 SEGMENT="1">
-            <FILIALE>0000004821</FILIALE>
+            <FILIALE>0000004822</FILIALE>
             <AENDKENNZ>MODI</AENDKENNZ>
             <AKTIVDATUM>20230808</AKTIVDATUM>
             <AENDDATUM>00000000</AENDDATUM>
@@ -119,7 +119,7 @@
                 <RABERLAUBT>X</RABERLAUBT>
                 <PRDRUCK>X</PRDRUCK>
                 <ARTIKANZ>X</ARTIKANZ>
-                <MHDHB>30</MHDHB>
+                <MHDHB>70</MHDHB>
             </E1WPA02>
             <E1WPA03 SEGMENT="1">
                 <QUALARTTXT>LTXT</QUALARTTXT>
@@ -128,28 +128,6 @@
                 <LFDNR>0001</LFDNR>
             </E1WPA03>
         </E1WPA01>
-        <E1WPA01 SEGMENT="1">
-            <FILIALE>0000004821</FILIALE>
-            <AENDKENNZ>MODI</AENDKENNZ>
-            <AKTIVDATUM>20230808</AKTIVDATUM>
-            <AENDDATUM>00000000</AENDDATUM>
-            <HAUPTEAN>4810268030178</HAUPTEAN>
-            <ARTIKELNR>000000000003670593</ARTIKELNR>
-            <POSME>ST</POSME>
-            <E1WPA02 SEGMENT="1">
-                <WARENGR>FR0608002</WARENGR>
-                <VERPGEW>0</VERPGEW>
-                <RABERLAUBT>X</RABERLAUBT>
-                <PRDRUCK>X</PRDRUCK>
-                <ARTIKANZ>X</ARTIKANZ>
-                <MHDHB>30</MHDHB>
-            </E1WPA02>
-            <E1WPA03 SEGMENT="1">
-                <QUALARTTXT>LTXT</QUALARTTXT>
-                <SPRASCODE>R</SPRASCODE>
-                <TEXT>БЗМЖ САВУШ.Творог ХУТОРОК 5% 300г</TEXT>
-                <LFDNR>0001</LFDNR>
-            </E1WPA03>
-        </E1WPA01>
+
     </IDOC>
 </WP_PLU03>
