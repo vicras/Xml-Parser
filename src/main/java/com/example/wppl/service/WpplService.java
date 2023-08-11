@@ -1,9 +1,9 @@
 package com.example.wppl.service;
 
-import com.example.wppl.reader.impl.WppParallelReader;
 import com.example.wppl.dao.E1WPA01_Dao;
 import com.example.wppl.dao.EDI_DC40_Dao;
 import com.example.wppl.dao.SpecialQuerryDao;
+import com.example.wppl.reader.impl.WppParallelReader;
 import com.example.wppl.validator.WpplFileValidator;
 import org.springframework.stereotype.Service;
 import org.xml.sax.SAXException;
@@ -39,7 +39,7 @@ public class WpplService {
         return specialQuerryDao.findAllDocnum();
     }
 
-    public boolean isValidXmlFile(String filePathName, String schemaDocPath ) throws SAXException {
+    public boolean isValidXmlFile(String filePathName, String schemaDocPath) throws SAXException {
         SchemaFactory schemaFactory = SchemaFactory.newInstance(XMLConstants.W3C_XML_SCHEMA_NS_URI);
         Schema schema = schemaFactory.newSchema(new File(schemaDocPath));
         var fileValidator = new WpplFileValidator(schema);

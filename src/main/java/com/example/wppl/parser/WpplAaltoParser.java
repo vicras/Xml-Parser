@@ -6,7 +6,7 @@ import com.fasterxml.aalto.AsyncXMLStreamReader;
 
 public interface WpplAaltoParser {
     ParseResult handleFileBytes(byte[] allFileBytes,
-                                       ParseResult parseResult,
-                                       AsyncXMLStreamReader<AsyncByteArrayFeeder> parser
+                                ParseResult parseResult,
+                                AsyncXMLStreamReader<AsyncByteArrayFeeder> parser
     );
 }

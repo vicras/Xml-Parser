@@ -17,12 +17,13 @@ public class E1WPA01_Dao {
         this.jdbcTemplate = jdbcTemplate;
     }
 
-    private String getMultiInsertSql(){
-      return "insert into e1wpa01 (filiale, aendkennz, aktivdatum, aenddatum, hauptean, artikelnr, " +
-              "posme, e1wpa02_warengr, e1wpa02_verpgew, e1wpa02_raberlaubt, e1wpa02_prdruck, e1wpa02_artikanz, e1wpa02_mhdhb, e1wpa03_qualarttxt, e1wpa03_sprascode, e1wpa03_text, e1wpa03_lfdnr)\n" +
-              "values  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
+    private String getMultiInsertSql() {
+        return "insert into e1wpa01 (filiale, aendkennz, aktivdatum, aenddatum, hauptean, artikelnr, " +
+                "posme, e1wpa02_warengr, e1wpa02_verpgew, e1wpa02_raberlaubt, e1wpa02_prdruck, e1wpa02_artikanz, e1wpa02_mhdhb, e1wpa03_qualarttxt, e1wpa03_sprascode, e1wpa03_text, e1wpa03_lfdnr)\n" +
+                "values  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     }
+
     @Transactional
     public void saveAll(List<E1WPA01> entities) {
         jdbcTemplate.batchUpdate(getMultiInsertSql(),

@@ -1,7 +1,7 @@
 package com.example.wppl.reader.impl;
 
-import com.example.wppl.parser.impl.WpplAaltoAsyncParser;
 import com.example.wppl.dto.ParseResult;
+import com.example.wppl.parser.WpplAaltoParser;
 import com.example.wppl.reader.WpplReader;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
@@ -19,9 +19,9 @@ import java.util.stream.Stream;
 public class WpplBufferFileReader implements WpplReader {
 
     private final AsyncXMLInputFactory inputF;
-    private final WpplAaltoAsyncParser wpplAAltoAsyncParser;
+    private final WpplAaltoParser wpplAAltoAsyncParser;
 
-    public WpplBufferFileReader(WpplAaltoAsyncParser wpplAAltoAsyncParser) {
+    public WpplBufferFileReader(WpplAaltoParser wpplAAltoAsyncParser) {
         this.wpplAAltoAsyncParser = wpplAAltoAsyncParser;
         inputF = new InputFactoryImpl();
     }

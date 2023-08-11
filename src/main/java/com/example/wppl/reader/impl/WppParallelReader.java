@@ -1,7 +1,7 @@
 package com.example.wppl.reader.impl;
 
-import com.example.wppl.parser.impl.WpplAaltoAsyncParser;
 import com.example.wppl.dto.ParseResult;
+import com.example.wppl.parser.WpplAaltoParser;
 import com.example.wppl.reader.WpplReader;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
@@ -28,16 +28,16 @@ public class WppParallelReader implements WpplReader {
     private static final int PARSER_THREAD_NUMBERS = 2;
 
     private final AsyncXMLInputFactory inputF;
-    private final WpplAaltoAsyncParser wpplAAltoAsyncParser;
+    private final WpplAaltoParser wpplAAltoAsyncParser;
 
 
-    public WppParallelReader(WpplAaltoAsyncParser wpplAAltoAsyncParser) {
+    public WppParallelReader(WpplAaltoParser wpplAAltoAsyncParser) {
         this.wpplAAltoAsyncParser = wpplAAltoAsyncParser;
         inputF = new InputFactoryImpl();
     }
 
     @Override
-    public ParseResult read(String filePath){
+    public ParseResult read(String filePath) {
         Queue<String> xmlElementQueue = new ConcurrentLinkedQueue<>();
         AtomicBoolean isFileRead = new AtomicBoolean(false);
         CompletableFuture.runAsync(() -> reader(filePath, xmlElementQueue, isFileRead));
@@ -57,8 +57,8 @@ public class WppParallelReader implements WpplReader {
 
     @SneakyThrows
     private void reader(String filePath,
-                       Queue<String> xmlElementQueue,
-                       AtomicBoolean isFileRead) {
+                        Queue<String> xmlElementQueue,
+                        AtomicBoolean isFileRead) {
         try (BufferedReader br = new BufferedReader(new FileReader(new File(filePath)))) {
             StringBuilder oneObjectForParse = new StringBuilder();
             for (String line; (line = br.readLine()) != null; ) {
@@ -76,7 +76,7 @@ public class WppParallelReader implements WpplReader {
 
 
     private boolean isNeedToSkipLine(String line) {
-        return line.contains("<WP_PLU03") || line.contains("IDOC ")|| line.contains("IDOC>") || line.contains("xml");
+        return line.contains("<WP_PLU03") || line.contains("IDOC ") || line.contains("IDOC>") || line.contains("xml");
     }
 
     private boolean isClosedTableValueTag(String line) {

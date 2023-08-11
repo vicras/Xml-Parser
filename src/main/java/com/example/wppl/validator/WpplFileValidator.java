@@ -11,11 +11,11 @@ import java.io.IOException;
 public class WpplFileValidator {
     private final Schema schema;
 
-    public WpplFileValidator(Schema schema){
+    public WpplFileValidator(Schema schema) {
         this.schema = schema;
     }
 
-    public boolean isValid(String xmlPath){
+    public boolean isValid(String xmlPath) {
         Validator validator = schema.newValidator();
         try {
             validator.validate(new StreamSource(new File(xmlPath)));

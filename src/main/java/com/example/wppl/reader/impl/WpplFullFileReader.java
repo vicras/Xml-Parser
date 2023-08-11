@@ -1,7 +1,7 @@
 package com.example.wppl.reader.impl;
 
-import com.example.wppl.parser.impl.WpplAaltoAsyncParser;
 import com.example.wppl.dto.ParseResult;
+import com.example.wppl.parser.WpplAaltoParser;
 import com.example.wppl.reader.WpplReader;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
@@ -16,12 +16,12 @@ import java.nio.file.Files;
 import java.nio.file.Paths;
 
 @Component
-public class WpplFullFileReader  implements WpplReader {
+public class WpplFullFileReader implements WpplReader {
 
     private final AsyncXMLInputFactory inputF;
-    private final WpplAaltoAsyncParser wpplAAltoAsyncParser;
+    private final WpplAaltoParser wpplAAltoAsyncParser;
 
-    public WpplFullFileReader(WpplAaltoAsyncParser wpplAAltoAsyncParser) {
+    public WpplFullFileReader(WpplAaltoParser wpplAAltoAsyncParser) {
         this.wpplAAltoAsyncParser = wpplAAltoAsyncParser;
         inputF = new InputFactoryImpl();
     }
