@@ -32,7 +32,7 @@
 
 Каждая из реализаций оптимальна для своего набора требований
 
-## ВАЛИДАЦИЯ
+## Валидация
 
 Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации **предоставленного** входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).  
 
