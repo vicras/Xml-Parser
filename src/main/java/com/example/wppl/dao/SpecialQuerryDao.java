@@ -15,7 +15,7 @@ public class SpecialQuerryDao {
     }
 
     public List<String> findAllDocnum() {
-        String sql = "select e.docnum from e1wpa01 join public.edi_dc40 e on e1wpa01.filiale = e.rcvprn where e1wpa01.mhdhb < 50";
+        String sql = "select e.docnum from e1wpa01 join public.edi_dc40 e on e1wpa01.filiale = e.rcvprn where e1wpa01.e1wpa02_mhdhb < 50";
 
         return jdbcTemplate.query(
                 sql,

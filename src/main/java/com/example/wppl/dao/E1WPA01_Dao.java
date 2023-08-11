@@ -19,7 +19,7 @@ public class E1WPA01_Dao {
 
     private String getMultiInsertSql(){
       return "insert into e1wpa01 (filiale, aendkennz, aktivdatum, aenddatum, hauptean, artikelnr, " +
-              "posme, warengr, verpgew, raberlaubt, prdruck, artikanz, mhdhb, qualarttxt, sprascode, text, lfdnr)\n" +
+              "posme, e1wpa02_warengr, e1wpa02_verpgew, e1wpa02_raberlaubt, e1wpa02_prdruck, e1wpa02_artikanz, e1wpa02_mhdhb, e1wpa03_qualarttxt, e1wpa03_sprascode, e1wpa03_text, e1wpa03_lfdnr)\n" +
               "values  (?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?, ?)";
 
     }

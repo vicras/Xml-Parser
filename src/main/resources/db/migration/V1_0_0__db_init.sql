@@ -33,17 +33,17 @@ CREATE TABLE IF NOT EXISTS E1WPA01
     ARTIKELNR               VARCHAR(255),
     POSME                   VARCHAR(255),
 
-    WARENGR                 VARCHAR(255),
-    VERPGEW                 VARCHAR(255),
-    RABERLAUBT              VARCHAR(255),
-    PRDRUCK                 VARCHAR(255),
-    ARTIKANZ                VARCHAR(255),
-    MHDHB                   BIGINT,
+    E1WPA02_WARENGR                 VARCHAR(255),
+    E1WPA02_VERPGEW                 VARCHAR(255),
+    E1WPA02_RABERLAUBT              VARCHAR(255),
+    E1WPA02_PRDRUCK                 VARCHAR(255),
+    E1WPA02_ARTIKANZ                VARCHAR(255),
+    E1WPA02_MHDHB                   BIGINT,
 
-    QUALARTTXT             VARCHAR(255),
-    SPRASCODE              VARCHAR(255),
-    TEXT                   VARCHAR(255),
-    LFDNR                  VARCHAR(255),
+    E1WPA03_QUALARTTXT             VARCHAR(255),
+    E1WPA03_SPRASCODE              VARCHAR(255),
+    E1WPA03_TEXT                   VARCHAR(255),
+    E1WPA03_LFDNR                  VARCHAR(255),
 
     CONSTRAINT PK_E1WPA01 PRIMARY KEY (FILIALE)
 );
@@ -51,3 +51,6 @@ CREATE TABLE IF NOT EXISTS E1WPA01
 
 ALTER TABLE EDI_DC40
     ADD CONSTRAINT FK_E1WPA01_E1WPA01 FOREIGN KEY (RCVPRN) REFERENCES E1WPA01 (FILIALE);
+
+CREATE INDEX index_name
+    ON E1WPA01 (E1WPA02_MHDHB);
