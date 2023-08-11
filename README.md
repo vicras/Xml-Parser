@@ -32,6 +32,9 @@
 
 Каждая из реализаций оптимальна для своего набора требований
 
+## Работа с БД
+Для сохранения сущностей в бд используется `JdbcTemplate`. Вставка производится с помощью Batch Insert.
+
 ## Валидация
 
 Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации **предоставленного** входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).  
@@ -52,4 +55,5 @@
 | 10000 записей  |    452 millis    |     303 millis |                194 millis |                221 millis |                 244 millis |
 | 100000 записей |   3285 millis    |    3066 millis |               2340 millis |               1389 millis |                1727 millis |
 
-
+## TODO
+* Обработка исключительных ситуаций
