@@ -34,7 +34,7 @@
 
 ## ВАЛИДАЦИЯ
 
-Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).  
+Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации **предоставленного** входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).  
 
 Для валидации `WP_PL.xml` файла может быть использован метод isValidXmlFile(String filePathName, String schemaDocPath) класса [WpplService.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fservice%2FWpplService.java)
 
