@@ -1,4 +1,4 @@
-package com.example.wppl;
+package com.example.wppl.parser.impl;
 
 import com.example.wppl.domain.mapper.E1WPA01_Filler;
 import com.example.wppl.domain.mapper.E1WPA02_Filler;

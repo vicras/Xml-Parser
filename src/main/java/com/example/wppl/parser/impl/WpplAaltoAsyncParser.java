@@ -1,6 +1,7 @@
-package com.example.wppl;
+package com.example.wppl.parser.impl;
 
 import com.example.wppl.dto.ParseResult;
+import com.example.wppl.parser.WpplAaltoParser;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
 import lombok.SneakyThrows;
@@ -12,16 +13,20 @@ import static javax.xml.stream.XMLStreamConstants.*;
 
 @Slf4j
 @Component
-public class WpplParser {
+public class WpplAaltoAsyncParser implements WpplAaltoParser {
 
     private final ActiveElementHandler activeElementHandler;
 
-    public WpplParser(ActiveElementHandler activeElementHandler) {
+    public WpplAaltoAsyncParser(ActiveElementHandler activeElementHandler) {
         this.activeElementHandler = activeElementHandler;
     }
 
+    @Override
     @SneakyThrows
-    public ParseResult handleFileBytes(byte[] allFileBytes, ParseResult parseResult, AsyncXMLStreamReader<AsyncByteArrayFeeder> parser) {
+    public ParseResult handleFileBytes(byte[] allFileBytes,
+                                       ParseResult parseResult,
+                                       AsyncXMLStreamReader<AsyncByteArrayFeeder> parser
+    ) {
         AsyncByteArrayFeeder inputFeeder = parser.getInputFeeder();
         inputFeeder.feedInput(allFileBytes, 0, allFileBytes.length);
 

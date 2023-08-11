@@ -1,6 +1,6 @@
 package com.example.wppl.service;
 
-import com.example.wppl.WppParallelReader;
+import com.example.wppl.reader.impl.WppParallelReader;
 import com.example.wppl.dao.E1WPA01_Dao;
 import com.example.wppl.dao.EDI_DC40_Dao;
 import com.example.wppl.dao.SpecialQuerryDao;

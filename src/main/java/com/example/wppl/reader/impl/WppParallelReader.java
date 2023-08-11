@@ -1,6 +1,8 @@
-package com.example.wppl;
+package com.example.wppl.reader.impl;
 
+import com.example.wppl.parser.impl.WpplAaltoAsyncParser;
 import com.example.wppl.dto.ParseResult;
+import com.example.wppl.reader.WpplReader;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
@@ -8,11 +10,9 @@ import com.fasterxml.aalto.stax.InputFactoryImpl;
 import lombok.SneakyThrows;
 import org.springframework.stereotype.Component;
 
-import javax.xml.stream.XMLStreamException;
 import java.io.BufferedReader;
 import java.io.File;
 import java.io.FileReader;
-import java.io.IOException;
 import java.util.Queue;
 import java.util.UUID;
 import java.util.concurrent.CompletableFuture;
@@ -23,20 +23,21 @@ import java.util.stream.Stream;
 import static java.util.Objects.isNull;
 
 @Component
-public class WppParallelReader {
+public class WppParallelReader implements WpplReader {
 
     private static final int PARSER_THREAD_NUMBERS = 2;
 
     private final AsyncXMLInputFactory inputF;
-    private final WpplParser wpplParser;
+    private final WpplAaltoAsyncParser wpplAAltoAsyncParser;
 
 
-    public WppParallelReader(WpplParser wpplParser) {
-        this.wpplParser = wpplParser;
+    public WppParallelReader(WpplAaltoAsyncParser wpplAAltoAsyncParser) {
+        this.wpplAAltoAsyncParser = wpplAAltoAsyncParser;
         inputF = new InputFactoryImpl();
     }
 
-    public ParseResult read(String filePath) throws IOException, XMLStreamException {
+    @Override
+    public ParseResult read(String filePath){
         Queue<String> xmlElementQueue = new ConcurrentLinkedQueue<>();
         AtomicBoolean isFileRead = new AtomicBoolean(false);
         CompletableFuture.runAsync(() -> reader(filePath, xmlElementQueue, isFileRead));
@@ -55,7 +56,7 @@ public class WppParallelReader {
     }
 
     @SneakyThrows
-    public void reader(String filePath,
+    private void reader(String filePath,
                        Queue<String> xmlElementQueue,
                        AtomicBoolean isFileRead) {
         try (BufferedReader br = new BufferedReader(new FileReader(new File(filePath)))) {
@@ -66,7 +67,7 @@ public class WppParallelReader {
                         .append("\n");
                 if (isClosedTableValueTag(line)) {
                     xmlElementQueue.add(oneObjectForParse.toString());
-                    oneObjectForParse.setLength(0); // in most cases it should be more performance efficient than allocate new one
+                    oneObjectForParse.setLength(0); // in most cases it should be more performance efficient than allocate the new one
                 }
             }
         }
@@ -75,7 +76,7 @@ public class WppParallelReader {
 
 
     private boolean isNeedToSkipLine(String line) {
-        return line.contains("WP_PLU03") || line.contains("IDOC") || line.contains("xml");
+        return line.contains("<WP_PLU03") || line.contains("IDOC ")|| line.contains("IDOC>") || line.contains("xml");
     }
 
     private boolean isClosedTableValueTag(String line) {
@@ -83,17 +84,17 @@ public class WppParallelReader {
     }
 
     @SneakyThrows
-    public ParseResult parser(
+    private ParseResult parser(
             Queue<String> xmlElementQueue,
             AtomicBoolean isFileRead
     ) {
         AsyncXMLStreamReader<AsyncByteArrayFeeder> parser = inputF.createAsyncForByteArray();
         var parseResult = new ParseResult();
-        wpplParser.handleFileBytes(("<parser" + UUID.randomUUID() + ">").getBytes(), parseResult, parser); // File should have only one root element
+        wpplAAltoAsyncParser.handleFileBytes(("<parser" + UUID.randomUUID() + ">").getBytes(), parseResult, parser); // File should have only one root element
         while (!(isFileRead.get() && xmlElementQueue.isEmpty())) {
             var dataToPerform = xmlElementQueue.poll();
             if (isNull(dataToPerform)) continue;
-            wpplParser.handleFileBytes(dataToPerform.getBytes(), parseResult, parser);
+            wpplAAltoAsyncParser.handleFileBytes(dataToPerform.getBytes(), parseResult, parser);
         }
 
         return parseResult;
