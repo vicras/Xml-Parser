@@ -48,11 +48,12 @@
 Для файлов размером 1, 10000 и 100000 записей были проведены замеры скорости работы (Чтение, Парсинг).  
 Для каждой ячейки было взято лучшее время из нескольких запусков.  
 
-| Размер файла   | BufferFileReader | FullFileReader | ParallelReader (2 потока) | ParallelReader (4 потока) | ParallelReader (8 потоков) |
-|----------------|:----------------:|---------------:|--------------------------:|--------------------------:|---------------------------:|
-| 1 запись       |     3 millis     |       1 millis |                  1 millis |                  2 millis |                   3 millis |
-| 10000 записей  |    452 millis    |     303 millis |                194 millis |                221 millis |                 244 millis |
-| 100000 записей |   3285 millis    |    3066 millis |               2340 millis |               1389 millis |                1727 millis |
+| Размер файла   | BufferFileReader | FullFileReader | ParallelReader (2 потока) | ParallelReader (4 потока) | ParallelReader (8 потоков) | ParallelReader (2 потоков) + save to DB |
+|----------------|:----------------:|---------------:|--------------------------:|--------------------------:|---------------------------:|----------------------------------------:|
+| 1 запись       |     3 millis     |       1 millis |                  1 millis |                  2 millis |                   3 millis |                               39 millis |
+| 10000 записей  |    452 millis    |     303 millis |                194 millis |                221 millis |                 244 millis |                             1442 millis |
+| 100000 записей |   3285 millis    |    3066 millis |               2340 millis |               1389 millis |                1727 millis |                             9506 millis |
+
 
 ## TODO
 * Обработка исключительных ситуаций
