@@ -1,0 +1,151 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<WVINVE03>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <DOCNUM>20002300002065</DOCNUM>
+            <DIRECT>2</DIRECT>
+            <IDOCTYP>WVINVE03</IDOCTYP>
+            <CIMTYP>WVINVE03</CIMTYP>
+            <MESTYP>WVINVE</MESTYP>
+            <SNDPOR>WPUx</SNDPOR>
+            <SNDPRT>KU</SNDPRT>
+            <SNDPRN>2000</SNDPRN>
+            <RCVPOR>SAPEJW</RCVPOR>
+            <RCVPRT>KU</RCVPRT>
+            <RCVPRN>SAP</RCVPRN>
+        </EDI_DC40>
+        <E1WVINH SEGMENT="1">
+            <GJAHR>2021</GJAHR>
+            <XBLNI>2300002065</XBLNI>
+            <DNAME>,</DNAME>
+            <DDATE>20210724</DDATE>
+            <DTIME>181406</DTIME>
+            <FILIALE>2000</FILIALE>
+            <VPDAT>20210727</VPDAT>
+            <KEORD>02</KEORD>
+            <ORDNG>BOOK</ORDNG>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>1</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>2104917</ARTNR>
+                <ERFMG>0</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>2</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>20002300002065</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>149.92</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20210724</ZDACT>
+                    <ZDATE>20210724</ZDATE>
+                    <ZTIME>181406</ZTIME>
+                    <ZMEMO>.</ZMEMO>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>2</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3486819</ARTNR>
+                <ERFMG>0</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>49</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>20002300002065</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>34.92</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20210724</ZDACT>
+                    <ZDATE>20210724</ZDATE>
+                    <ZTIME>181406</ZTIME>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>3</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>2172628</ARTNR>
+                <ERFMG>11</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>12</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>20002300002065</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>149.92</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20210724</ZDACT>
+                    <ZDATE>20210724</ZDATE>
+                    <ZTIME>181406</ZTIME>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>4</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>95475</ARTNR>
+                <ERFMG>0</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>12</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>20002300002065</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>158.25</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20210724</ZDACT>
+                    <ZDATE>20210724</ZDATE>
+                    <ZTIME>181406</ZTIME>
+                </ZE1WVINH>
+            </E1WVINI>
+        </E1WVINH>
+    </IDOC>
+</WVINVE03>

@@ -1,0 +1,408 @@
+<?xml version="1.0" encoding="UTF-8"?><WVINVE03>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <DOCNUM>22372300007191</DOCNUM>
+            <DIRECT>2</DIRECT>
+            <IDOCTYP>WVINVE03</IDOCTYP>
+            <CIMTYP>WVINVE03</CIMTYP>
+            <MESTYP>WVINVE</MESTYP>
+            <SNDPOR>WPUx</SNDPOR>
+            <SNDPRT>KU</SNDPRT>
+            <SNDPRN>2237</SNDPRN>
+            <RCVPOR>SAPEJW</RCVPOR>
+            <RCVPRT>KU</RCVPRT>
+            <RCVPRN>SAP</RCVPRN>
+        </EDI_DC40>
+        <E1WVINH SEGMENT="1">
+            <GJAHR>2023</GJAHR>
+            <XBLNI>2300007191</XBLNI>
+            <DNAME>, </DNAME>
+            <DDATE>20230924</DDATE>
+            <DTIME>213041</DTIME>
+            <FILIALE>2237</FILIALE>
+            <VPDAT>20230921</VPDAT>
+            <KEORD>01</KEORD>
+            <ORDNG>STARTED</ORDNG>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>1</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3429312</ARTNR>
+                <ERFMG>17</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>16</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>85.43</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZMEMO>    21.09.2023.</ZMEMO>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>8.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>2</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>4096391</ARTNR>
+                <ERFMG>19</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>18</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>65</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>12.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>3</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3412453</ARTNR>
+                <ERFMG>27</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>25</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>43.06</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>20.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>4</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3343876</ARTNR>
+                <ERFMG>15</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>16</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>136.33</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>12.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>5</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>4091335</ARTNR>
+                <ERFMG>17</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>16</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>68</FLDVAL>
+
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>12.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>6</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3425195</ARTNR>
+                <ERFMG>12</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>9</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>117.46</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>3.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>7</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3695690</ARTNR>
+                <ERFMG>16</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>17</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>58.98</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>9.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>8</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3343907</ARTNR>
+                <ERFMG>32</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>33</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>58.13</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>20.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>9</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>3973287</ARTNR>
+                <ERFMG>9</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>7</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>145.88</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+
+                            <ZONEQTY>6.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>10</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>4112838</ARTNR>
+                <ERFMG>12</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>9</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>70.75</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>12.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+                </ZE1WVINH>
+            </E1WVINI>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>11</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>4222224</ARTNR>
+                <ERFMG>35</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>35</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007191</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>45.33</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230412</ZDACT>
+                    <ZONES SEGMENT="1">
+                        <ZONE>
+                            <ZONENAME>S9998</ZONENAME>
+                            <ZONEQTY>20.0</ZONEQTY>
+                        </ZONE>
+                    </ZONES>
+
+                </ZE1WVINH>
+            </E1WVINI>
+        </E1WVINH>
+    </IDOC>
+</WVINVE03>
