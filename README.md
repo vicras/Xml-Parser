@@ -1,20 +1,19 @@
 # Задача:
 
-> Есть большой xml файл WP_PL на 100_000 неповторяющихся, но и не упорядоченных элементов. 
->                               
+> Есть большой xml файл WP_PL на 100_000 неповторяющихся, но и не упорядоченных элементов.
+>
 >       <DOCNUM>0000017115154750</DOCNUM>(уникален) и 
 >       <MHDHB>30</MHDHB>(случайное число до 100). 
-> Нужно распарсить этот файл как можно быстрее и сохранить в БД postgres в двух таблицах связанных один к одному по ключу(полю) RCVPRN. 
-> 
-> **Первая** — таблица все поля из EDI_DC40 
-> 
-> **Вторая** — из E1WPA01 
+> Нужно распарсить этот файл как можно быстрее и сохранить в БД postgres в двух таблицах связанных один к одному по ключу(полю) RCVPRN.
+>
+> **Первая** — таблица все поля из EDI_DC40
+>
+> **Вторая** — из E1WPA01
 >
 > Связанные значения один к одному
 >
->                                <RCVPRN>0000004821</RCVPRN>
->
->                                <FILIALE>0000004821</FILIALE>
+>      <RCVPRN>0000004821</RCVPRN>
+>      <FILIALE>0000004821</FILIALE>
 > Построить запрос где найти все документы DOCNUM в которых значение поля MHDHB < 50
 
 # Решение
@@ -37,23 +36,25 @@
 
 ## Валидация
 
-Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации **предоставленного** входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).  
+Был создан файл схемы [scheme.xsd](scheme.xsd) для валидации **предоставленного** входного файла и класс валидатора [WpplFileValidator.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fvalidator%2FWpplFileValidator.java).
 
 Для валидации `WP_PL.xml` файла может быть использован метод isValidXmlFile(String filePathName, String schemaDocPath) класса [WpplService.java](src%2Fmain%2Fjava%2Fcom%2Fexample%2Fwppl%2Fservice%2FWpplService.java)
 
-## Тесты 
+## Тесты
 Для проверки работоспособности были написаны тесты.   
 Тесты требуют подключение PostgeSQL DB. Параметры подключений должны быть прописаны в [application.yaml](src%2Ftest%2Fresources%2Fapplication.yaml)
 
 Был добавлен [BigFileGenerator.java](src%2Ftest%2Fjava%2Fcom%2Fexample%2Fgenerator%2FBigFileGenerator.java) позволяющий сгенерировать тестовый входной файл на любое количество записей.  
-Для файлов размером 10000 записей и 100000 были проведены замеры скорости работы (Чтение, Парсинг).  
-Для каждой ячейки было взято лучшее время из нескольких запусков.  
+Для файлов размером 1, 10000 и 100000 записей были проведены замеры скорости работы (Чтение, Парсинг).  
+Для каждой ячейки было взято лучшее время из нескольких запусков.
 
-| Размер файла   | BufferFileReader | FullFileReader | ParallelReader (2 потока) | ParallelReader (4 потока) | ParallelReader (8 потоков) |
-|----------------|:----------------:|---------------:|--------------------------:|--------------------------:|---------------------------:|
-| 1 запись       |     3 millis     |       1 millis |                  1 millis |                  2 millis |                   3 millis |
-| 10000 записей  |    452 millis    |     303 millis |                194 millis |                221 millis |                 244 millis |
-| 100000 записей |   3285 millis    |    3066 millis |               2340 millis |               1389 millis |                1727 millis |
+| Размер файла   | BufferFileReader | FullFileReader | ParallelReader (2 потока) | ParallelReader (4 потока) | ParallelReader (8 потоков) | ParallelReader (2 потоков) + Save to DB (BatchSize 100) + Select |
+|----------------|:----------------:|---------------:|--------------------------:|--------------------------:|---------------------------:|-----------------------------------------------------------------:|
+| 1 запись       |     3 millis     |       1 millis |                  1 millis |                  2 millis |                   3 millis |                                                        39 millis |
+| 10000 записей  |    452 millis    |     303 millis |                194 millis |                221 millis |                 244 millis |                                                      1442 millis |
+| 100000 записей |   3285 millis    |    3066 millis |               2340 millis |               1389 millis |                1727 millis |                                                      9506 millis |
+
 
 ## TODO
 * Обработка исключительных ситуаций
+* Docker compose 
