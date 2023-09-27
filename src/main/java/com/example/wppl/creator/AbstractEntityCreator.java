@@ -1,7 +1,7 @@
 package com.example.wppl.creator;
 
 import com.example.wppl.creator.utils.CreatorUtils;
-import com.example.wppl.domain.FileObject;
+import com.example.wppl.domain.XmlFileObject;
 import com.example.wppl.dto.context.ParseContext;
 
 import java.util.Optional;
@@ -33,7 +33,7 @@ public abstract class AbstractEntityCreator implements EntityCreator {
         lastObject.flatMap(objToSet ->
                 currentText.flatMap(value ->
                         currentTagName.map(field ->
-                                CreatorUtils.setValue(objToSet, field, value))));
+                                CreatorUtils.setTextValue(objToSet, field, value))));
     }
 
     protected void setObjectValue(ParseContext context) {
@@ -44,10 +44,10 @@ public abstract class AbstractEntityCreator implements EntityCreator {
         parentObject.flatMap(parentObj ->
                 lastObject.flatMap(value ->
                         currentTagName.map(field ->
-                                CreatorUtils.setValueToList(parentObj, field, value))));
+                                CreatorUtils.setObjectValue(parentObj, field, value))));
     }
 
-    protected abstract Optional<FileObject> newTagInstanceByName(String name);
+    protected abstract Optional<XmlFileObject> newTagInstanceByName(String name);
 
     protected abstract void putTogetherFinishedTag(String name, ParseContext context);
 }

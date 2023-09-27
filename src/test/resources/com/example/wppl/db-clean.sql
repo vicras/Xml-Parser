@@ -1,2 +1,3 @@
-delete from EDI_DC40;
-delete from E1WPA01;
+delete from zlo_inv_task_h;
+delete from zlo_inv_task_pos;
+delete from zlo_inv_task_zone;

@@ -1,8 +1,8 @@
 package com.example.wppl.domain.inventory;
 
-import com.example.wppl.domain.FileObject;
+import com.example.wppl.domain.XmlFileObject;
 
-public class EDI_DC40 implements FileObject {
+public class EDI_DC40 implements XmlFileObject {
     public String DOCNUM;
     public String DIRECT;
     public String IDOCTYP;

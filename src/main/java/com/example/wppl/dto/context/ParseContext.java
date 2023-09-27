@@ -1,6 +1,6 @@
 package com.example.wppl.dto.context;
 
-import com.example.wppl.domain.FileObject;
+import com.example.wppl.domain.XmlFileObject;
 import lombok.Getter;
 import lombok.ToString;
 
@@ -40,15 +40,15 @@ public class ParseContext {
 
     // region Result operations
 
-    public Optional<FileObject> peekLastObject(){
+    public Optional<XmlFileObject> peekLastObject(){
         return result.peekLastTag();
     }
 
-    public Optional<FileObject> popLastObject(){
+    public Optional<XmlFileObject> popLastObject(){
         return result.popLastResultTag();
     }
 
-    public void addObjectToResult(FileObject tag){
+    public void addObjectToResult(XmlFileObject tag){
         result.addTag(tag);
     }
 

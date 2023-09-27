@@ -5,6 +5,8 @@ spring:
 
   datasource:
     driver-class-name: org.postgresql.Driver
-    url: jdbc:postgresql://0.0.0.0:5555/postgres_v3?useLocalSessionState=true&useLocalTransactionState=true
+    url: jdbc:postgresql://0.0.0.0:5555/migration?useLocalSessionState=true&useLocalTransactionState=true
     username: postgres
     password: postgres
+    hikari:
+      schema: ctrl
