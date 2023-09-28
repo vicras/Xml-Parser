@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?><WVINVE03>
+    <IDOC BEGIN="1">
+        <EDI_DC40 SEGMENT="1">
+            <DOCNUM>22372300007211</DOCNUM>
+            <DIRECT>2</DIRECT>
+            <IDOCTYP>WVINVE03</IDOCTYP>
+            <CIMTYP>WVINVE03</CIMTYP>
+            <MESTYP>WVINVE</MESTYP>
+            <SNDPOR>WPUx</SNDPOR>
+            <SNDPRT>KU</SNDPRT>
+            <SNDPRN>2237</SNDPRN>
+            <RCVPOR>SAPEJW</RCVPOR>
+            <RCVPRT>KU</RCVPRT>
+            <RCVPRN>SAP</RCVPRN>
+        </EDI_DC40>
+        <E1WVINH SEGMENT="1">
+            <GJAHR>2023</GJAHR>
+            <XBLNI>2300007211</XBLNI>
+            <DNAME>Чернышев, Вячеслав</DNAME>
+            <DDATE>20230924</DDATE>
+            <DTIME>220244</DTIME>
+            <FILIALE>2237</FILIALE>
+            <VPDAT>20230926</VPDAT>
+            <KEORD>02</KEORD>
+            <ORDNG>BOOK</ORDNG>
+            <E1WVINI SEGMENT="1">
+                <ZEILI>1</ZEILI>
+                <QUALARTNR>006</QUALARTNR>
+                <ARTNR>4295358</ARTNR>
+                <ERFMG>0</ERFMG>
+                <ERFME>ST</ERFME>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>DMARC</FLDGRP>
+                    <FLDNAME>RSOLLMG</FLDNAME>
+                    <FLDVAL>0</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>DOCNUMBER</FLDNAME>
+                    <FLDVAL>22372300007211</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>POS</FLDGRP>
+                    <FLDNAME>WRITEOFF</FLDNAME>
+                    <FLDVAL>2100029873</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>HEAD</FLDGRP>
+                    <FLDNAME>INV_TYPE</FLDNAME>
+                    <FLDVAL>2</FLDVAL>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDGRP>KRO</FLDGRP>
+                    <FLDNAME>MDECHK</FLDNAME>
+                </E1WXX01>
+                <E1WXX01 SEGMENT="1">
+                    <FLDNAME>PRICE</FLDNAME>
+                    <FLDVAL>184.55</FLDVAL>
+                </E1WXX01>
+                <ZE1WVINH SEGMENT="1">
+                    <ZDACT>20230923</ZDACT>
+                    <ZDATE>20230924</ZDATE>
+                    <ZTIME>220244</ZTIME>
+                    <ZMEMO>Актуализация остатков. Списание 22372100029873</ZMEMO>
+                </ZE1WVINH>
+            </E1WVINI>
+        </E1WVINH>
+    </IDOC>
+</WVINVE03>

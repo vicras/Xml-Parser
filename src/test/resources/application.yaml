@@ -10,3 +10,7 @@ spring:
     password: postgres
     hikari:
       schema: ctrl
+
+logging:
+    level:
+      org.springframework.jdbc.core.JdbcTemplate: Debug
