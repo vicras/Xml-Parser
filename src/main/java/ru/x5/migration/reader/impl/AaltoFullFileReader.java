@@ -1,20 +1,18 @@
 package ru.x5.migration.reader.impl;
 
-import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.reader.XmlFileReader;
-import ru.x5.migration.reader.parser.AaltoAsyncParser;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
 import com.fasterxml.aalto.stax.InputFactoryImpl;
-import org.springframework.stereotype.Component;
+import ru.x5.migration.dto.context.ParseContext;
+import ru.x5.migration.reader.XmlFileReader;
+import ru.x5.migration.reader.parser.AaltoAsyncParser;
 
 import java.io.IOException;
 import java.io.InputStream;
 import java.nio.file.Files;
 import java.nio.file.Paths;
 
-@Component
 public class AaltoFullFileReader implements XmlFileReader {
 
     private final AsyncXMLInputFactory asyncXMLInputFactory;

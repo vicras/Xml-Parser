@@ -1,18 +1,32 @@
 package ru.x5.migration.creator;
 
 import ru.x5.migration.creator.utils.CreatorUtils;
-import ru.x5.migration.dto.xml.XmlFileObject;
 import ru.x5.migration.dto.context.ParseContext;
+import ru.x5.migration.dto.context.xml.NamedTag;
+import ru.x5.migration.dto.xml.XmlFileObject;
 
+import java.util.Map;
+import java.util.Objects;
 import java.util.Optional;
 
 public abstract class AbstractEntityCreator implements EntityCreator {
 
     @Override
     public void newElement(ParseContext context) {
-        context.currentTagName()
-                .flatMap(this::newTagInstanceByName)
+        context.currentTag()
+                .flatMap(this::getXmlFileObjectWithAttr)
                 .ifPresent(context::addObjectToResult);
+    }
+
+    private Optional<XmlFileObject> getXmlFileObjectWithAttr(NamedTag namedTag) {
+        return newTagInstanceByName(namedTag.getName())
+                .map(obj -> setAttributes(obj, namedTag.getAttributes()));
+    }
+
+    private XmlFileObject setAttributes(XmlFileObject obj, Map<String, String> attributes) {
+        if (Objects.isNull(attributes) || attributes.isEmpty()) return obj;
+        attributes.forEach((attrName, attrValue) -> CreatorUtils.setTextValue(obj, attrName, attrValue));
+        return obj;
     }
 
     @Override

@@ -5,6 +5,6 @@ import lombok.Getter;
 
 @Getter
 @AllArgsConstructor
-public class TagTextContent implements XmlElement{
+public class TagTextContent implements XmlElement {
     private String text;
 }

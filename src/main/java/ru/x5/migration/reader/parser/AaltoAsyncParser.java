@@ -1,19 +1,21 @@
 package ru.x5.migration.reader.parser;
 
-import ru.x5.migration.reader.handler.XmlStaxEventHandler;
-import ru.x5.migration.dto.context.ParseContext;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
-import org.springframework.stereotype.Component;
+import ru.x5.migration.dto.context.ParseContext;
+import ru.x5.migration.reader.handler.XmlStaxEventHandler;
+
+import java.util.Map;
+import java.util.stream.Collectors;
+import java.util.stream.IntStream;
 
 import static com.fasterxml.aalto.AsyncXMLStreamReader.EVENT_INCOMPLETE;
 import static javax.xml.stream.XMLStreamConstants.*;
 
 @Slf4j
-@Component
-public class AaltoAsyncParser{
+public class AaltoAsyncParser {
 
     private final XmlStaxEventHandler xmlStaxEventHandler;
 
@@ -53,7 +55,18 @@ public class AaltoAsyncParser{
             ParseContext context
     ) {
         var tagName = parser.getLocalName();
-        return xmlStaxEventHandler.handleElementStarting(context, tagName);
+        var attributes = getTagAttributseMap(parser);
+        return xmlStaxEventHandler.handleElementStarting(context, tagName, attributes);
+    }
+
+    private Map<String, String> getTagAttributseMap(AsyncXMLStreamReader<AsyncByteArrayFeeder> reader) {
+        return IntStream.range(0, reader.getAttributeCount())
+                .boxed()
+                .collect(
+                        Collectors.toMap(
+                                attrNum -> reader.getAttributeName(attrNum).getLocalPart(),
+                                attrNum -> reader.getAttributeValue(attrNum).strip())
+                );
     }
 
     private ParseContext handleCharacters(

@@ -1,39 +1,38 @@
 package ru.x5.migration.reader.impl;
 
-import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.reader.XmlFileReader;
-import ru.x5.migration.reader.parser.AaltoAsyncParser;
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLInputFactory;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
 import com.fasterxml.aalto.stax.InputFactoryImpl;
-import org.springframework.stereotype.Component;
+import org.springframework.beans.factory.annotation.Qualifier;
+import ru.x5.migration.dto.context.ParseContext;
+import ru.x5.migration.reader.XmlFileReader;
+import ru.x5.migration.reader.parser.AaltoAsyncParser;
 
 import java.io.IOException;
 import java.nio.file.Files;
 import java.nio.file.Path;
 import java.util.stream.Stream;
 
-@Component
 public class AaltoBufferFileReader implements XmlFileReader {
 
     private final AsyncXMLInputFactory asyncXMLInputFactory;
     private final AaltoAsyncParser aaltoAsyncParser;
 
-    public AaltoBufferFileReader(AaltoAsyncParser aaltoAsyncParser) {
+    public AaltoBufferFileReader(@Qualifier("inventoryAaltoAsyncParser") AaltoAsyncParser aaltoAsyncParser) {
         this.aaltoAsyncParser = aaltoAsyncParser;
         asyncXMLInputFactory = new InputFactoryImpl();
     }
 
     @Override
     public ParseContext read(String filePath) {
-        try{
+        try {
             var parseContext = new ParseContext();
             var streamReader = asyncXMLInputFactory.createAsyncForByteArray();
             parseContext = readFileLazy(filePath, parseContext, streamReader);
             streamReader.close();
             return parseContext;
-        }catch (Exception ex){
+        } catch (Exception ex) {
             throw new RuntimeException(ex);
         }
     }

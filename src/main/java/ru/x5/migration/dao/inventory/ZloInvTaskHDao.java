@@ -3,6 +3,8 @@ package ru.x5.migration.dao.inventory;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+import ru.x5.migration.dao.BaseDao;
 import ru.x5.migration.domain.inventory.ZloInvTaskH;
 
 import java.math.BigInteger;
@@ -15,6 +17,7 @@ public class ZloInvTaskHDao extends BaseDao {
         super(jdbcTemplate);
     }
 
+    @Transactional
     public List<ZloInvTaskH> batchUpdate(List<ZloInvTaskH> entities, int batchSize) {
         enhanceWithIds(entities);
         var params = entities.stream().map(this::getMapSqlParameterSource).toList();

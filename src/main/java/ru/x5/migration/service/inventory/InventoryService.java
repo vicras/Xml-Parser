@@ -2,7 +2,7 @@ package ru.x5.migration.service.inventory;
 
 import lombok.AllArgsConstructor;
 import lombok.Getter;
-import lombok.RequiredArgsConstructor;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
 import ru.x5.migration.dao.inventory.ZloInvTaskHDao;
 import ru.x5.migration.dao.inventory.ZloInvTaskPosDao;
@@ -13,21 +13,32 @@ import ru.x5.migration.domain.inventory.ZloInvTaskZone;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.dto.xml.inventory.IDOC;
 import ru.x5.migration.dto.xml.inventory.mapper.InventoryMapper;
-import ru.x5.migration.reader.impl.AaltoFullFileReader;
+import ru.x5.migration.reader.XmlFileReader;
 
 import java.math.BigInteger;
 import java.util.List;
-import java.util.Random;
 
 @Service
-@RequiredArgsConstructor
 public class InventoryService {
 
-    private final AaltoFullFileReader reader;
+    private final XmlFileReader reader;
     private final ZloInvTaskHDao taskHDao;
     private final ZloInvTaskPosDao taskPosDao;
     private final ZloInvTaskZoneDao taskZoneDao;
     private final InventoryMapper inventoryMapper;
+
+    public InventoryService(@Qualifier("inventoryXmlReader") XmlFileReader reader,
+                            ZloInvTaskHDao taskHDao,
+                            ZloInvTaskPosDao taskPosDao,
+                            ZloInvTaskZoneDao taskZoneDao,
+                            InventoryMapper inventoryMapper
+    ) {
+        this.reader = reader;
+        this.taskHDao = taskHDao;
+        this.taskPosDao = taskPosDao;
+        this.taskZoneDao = taskZoneDao;
+        this.inventoryMapper = inventoryMapper;
+    }
 
     public void parseXml(String fileName) {
         ParseContext parseContext = reader.read(fileName);

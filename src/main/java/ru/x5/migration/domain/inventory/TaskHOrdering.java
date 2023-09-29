@@ -32,7 +32,7 @@ public enum TaskHOrdering {
         return Arrays.stream(values())
                 .filter(it -> it.name().equalsIgnoreCase(title))
                 .findFirst()
-                .orElseThrow(() -> new RuntimeException("Can't recognize TaskHOrdering type: "+ title));
+                .orElseThrow(() -> new RuntimeException("Can't recognize TaskHOrdering type: " + title));
     }
 }
 

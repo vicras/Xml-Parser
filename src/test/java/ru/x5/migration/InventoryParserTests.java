@@ -3,12 +3,14 @@ package ru.x5.migration;
 import org.junit.jupiter.api.Assertions;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.jdbc.Sql;
 import ru.x5.migration.dao.inventory.ZloInvTaskHDao;
 import ru.x5.migration.domain.inventory.ZloInvTaskH;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.dto.xml.inventory.IDOC;
+import ru.x5.migration.reader.XmlFileReader;
 import ru.x5.migration.reader.impl.AaltoBufferFileReader;
 import ru.x5.migration.reader.impl.AaltoFullFileReader;
 import ru.x5.migration.service.inventory.InventoryService;
@@ -26,9 +28,11 @@ class InventoryParserTests {
     private static final String BATCH_FILE_PREFIX_NAME = "examples/inventory/test/DATA_B";
 
     @Autowired
-    private AaltoFullFileReader reader;
+    @Qualifier("inventoryXmlReader")
+    private XmlFileReader reader;
     @Autowired
-    private AaltoBufferFileReader bufferReader;
+    @Qualifier("inventoryXmlBufferReader")
+    private XmlFileReader bufferReader;
     @Autowired
     private InventoryService inventoryService;
     @Autowired

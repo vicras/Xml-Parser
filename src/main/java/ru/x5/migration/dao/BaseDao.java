@@ -1,4 +1,4 @@
-package ru.x5.migration.dao.inventory;
+package ru.x5.migration.dao;
 
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;

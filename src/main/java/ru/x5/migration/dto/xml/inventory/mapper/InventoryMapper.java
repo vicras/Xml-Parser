@@ -13,7 +13,9 @@ import ru.x5.migration.dto.xml.inventory.EDI_DC40;
 import java.time.LocalDate;
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
-import java.util.*;
+import java.util.List;
+import java.util.Objects;
+import java.util.Optional;
 import java.util.function.Supplier;
 
 import static java.util.Objects.requireNonNullElse;
@@ -28,17 +30,17 @@ public abstract class InventoryMapper {
     @Mapping(target = "vpdat", source = "e1WVINH.VPDAT")
     @Mapping(target = "ordng", expression = "java(TaskHOrdering.of(e1WVINH.ORDNG))")
     @Mapping(target = "keord", source = "e1WVINH.KEORD")
-    @Mapping(target = "zdact", expression = "java(toLocalDate(e1WVINH.E1WVINI.get(0).ZE1WVINH.ZDACT))")
+    @Mapping(target = "zdact", expression = "java(toLocalDate(e1WVINH.e1WVINI.get(0).ze1Wvinh.ZDACT))")
     @Mapping(target = "ztact", ignore = true)
-    @Mapping(target = "zdate", expression = "java(toLocalDate(e1WVINH.E1WVINI.get(0).ZE1WVINH.ZDATE))")
-    @Mapping(target = "ztime", expression = "java(toNumber(e1WVINH.E1WVINI.get(0).ZE1WVINH.ZTIME))")
+    @Mapping(target = "zdate", expression = "java(toLocalDate(e1WVINH.e1WVINI.get(0).ze1Wvinh.ZDATE))")
+    @Mapping(target = "ztime", expression = "java(toNumber(e1WVINH.e1WVINI.get(0).ze1Wvinh.ZTIME))")
     @Mapping(target = "ddate", source = "e1WVINH.DDATE")
     @Mapping(target = "dtime", source = "e1WVINH.DTIME")
     @Mapping(target = "datecreated", expression = "java(LocalDateTime.now())")
     public abstract ZloInvTaskH toZloInvTaskH(EDI_DC40 ediDc40, E1WVINH e1WVINH);
 
     public List<ZloInvTaskPos> toZloInvTaskPos(EDI_DC40 ediDc40, E1WVINH e1WVINH) {
-        return e1WVINH.E1WVINI.stream()
+        return e1WVINH.e1WVINI.stream()
                 .map(e1WVINI -> {
                     var taskPos = new ZloInvTaskPos();
                     taskPos.setXblni(e1WVINH.XBLNI);
@@ -54,14 +56,14 @@ public abstract class InventoryMapper {
     }
 
     public List<ZloInvTaskZone> toZloInvTaskZone(EDI_DC40 ediDc40, E1WVINH e1WVINH) {
-        return e1WVINH.E1WVINI.stream()
+        return e1WVINH.e1WVINI.stream()
                 .map(e1WVINI -> {
                     var taskPos = new ZloInvTaskZone();
                     taskPos.setXblni(e1WVINH.XBLNI);
                     taskPos.setSndprn(ediDc40.SNDPRN);
                     taskPos.setArtnr(e1WVINI.ARTNR);
-                    String zonename = withNPECheck(() -> e1WVINI.ZE1WVINH.ZONES.ZONE.ZONENAME);
-                    Double zoneqty = withNPECheck(() -> toDouble(e1WVINI.ZE1WVINH.ZONES.ZONE.ZONEQTY));
+                    String zonename = withNPECheck(() -> e1WVINI.ze1Wvinh.zones.zone.ZONENAME);
+                    Double zoneqty = withNPECheck(() -> toDouble(e1WVINI.ze1Wvinh.zones.zone.ZONEQTY));
                     taskPos.setZonename(requireNonNullElse(zonename, "test"));
                     taskPos.setZoneqty(requireNonNullElse(zoneqty, 0.0));
                     taskPos.setDateCreated(LocalDateTime.now());

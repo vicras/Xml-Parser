@@ -1,7 +1,7 @@
 package ru.x5.migration.dto.xml.inventory;
 
-import ru.x5.migration.dto.xml.XmlFileObject;
 import lombok.Getter;
+import ru.x5.migration.dto.xml.XmlFileObject;
 
 import java.util.List;
 
@@ -15,7 +15,7 @@ public class E1WVINH implements XmlFileObject {
     public String VPDAT;
     public String KEORD;
     public String ORDNG;
-    public List<E1WVINI> E1WVINI;
+    public List<E1WVINI> e1WVINI;
 
     public static class E1WVINI implements XmlFileObject {
         public String ZEILI;
@@ -24,7 +24,7 @@ public class E1WVINH implements XmlFileObject {
         public String ERFMG;
         public String ERFME;
         public List<E1WXX01> E1WXX01;
-        public ZE1WVINH ZE1WVINH;
+        public ZE1WVINH ze1Wvinh;
 
         @Getter
         public static class E1WXX01 implements XmlFileObject {
@@ -38,10 +38,10 @@ public class E1WVINH implements XmlFileObject {
             public String ZDATE;
             public String ZTIME;
             public String ZMEMO;
-            public ZONES ZONES;
+            public ZONES zones;
 
             public static class ZONES implements XmlFileObject {
-                public ZONE ZONE;
+                public ZONE zone;
 
                 public static class ZONE implements XmlFileObject {
                     public String ZONENAME;

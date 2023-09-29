@@ -1,9 +1,11 @@
 package ru.x5.migration.dao.inventory;
 
-import ru.x5.migration.domain.inventory.ZloInvTaskZone;
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
+import org.springframework.transaction.annotation.Transactional;
+import ru.x5.migration.dao.BaseDao;
+import ru.x5.migration.domain.inventory.ZloInvTaskZone;
 
 import java.util.List;
 
@@ -13,6 +15,7 @@ public class ZloInvTaskZoneDao extends BaseDao {
         super(jdbcTemplate);
     }
 
+    @Transactional
     public void batchUpdate(List<ZloInvTaskZone> entities, int batchSize) {
         var params = entities.stream().map(this::getMapSqlParameterSource).toList();
         batchUpdate(zlo_inv_task_zoneSQL(), params, batchSize);
@@ -20,13 +23,13 @@ public class ZloInvTaskZoneDao extends BaseDao {
 
     private MapSqlParameterSource getMapSqlParameterSource(ZloInvTaskZone taskZone) {
         MapSqlParameterSource parameterSource = new MapSqlParameterSource();
-        parameterSource.addValue("parentid",taskZone.getParentid());
-        parameterSource.addValue("xblni",taskZone.getXblni());
-        parameterSource.addValue("sndprn",taskZone.getSndprn());
-        parameterSource.addValue("artnr",taskZone.getArtnr());
-        parameterSource.addValue("zonename",taskZone.getZonename());
-        parameterSource.addValue("zoneqty",taskZone.getZoneqty());
-        parameterSource.addValue("datecreated",taskZone.getDateCreated());
+        parameterSource.addValue("parentid", taskZone.getParentid());
+        parameterSource.addValue("xblni", taskZone.getXblni());
+        parameterSource.addValue("sndprn", taskZone.getSndprn());
+        parameterSource.addValue("artnr", taskZone.getArtnr());
+        parameterSource.addValue("zonename", taskZone.getZonename());
+        parameterSource.addValue("zoneqty", taskZone.getZoneqty());
+        parameterSource.addValue("datecreated", taskZone.getDateCreated());
         return parameterSource;
     }
 

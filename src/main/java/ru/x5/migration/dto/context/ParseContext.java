@@ -1,9 +1,11 @@
 package ru.x5.migration.dto.context;
 
-import ru.x5.migration.dto.xml.XmlFileObject;
 import lombok.Getter;
 import lombok.ToString;
+import ru.x5.migration.dto.context.xml.NamedTag;
+import ru.x5.migration.dto.xml.XmlFileObject;
 
+import java.util.Map;
 import java.util.Optional;
 
 @Getter
@@ -19,10 +21,11 @@ public class ParseContext {
 
     // region Path operations
 
-    public void addNewTagName(String name){
-        path.newTag(name);
+    public void addNewTagName(String name, Map<String, String> attributes) {
+        path.newTag(name, attributes);
     }
-    public void addNewTagContent(String text){
+
+    public void addNewTagContent(String text) {
         path.newContent(text);
     }
 
@@ -30,25 +33,30 @@ public class ParseContext {
         path.endTag(name);
     }
 
-    public Optional<String> currentTagName(){
-        return path.currentTagName();
+    public Optional<NamedTag> currentTag() {
+        return path.currentTag();
     }
 
-    public Optional<String> currentContentText(){
+    public Optional<String> currentTagName() {
+        return path.currentTag()
+                .map(NamedTag::getName);
+    }
+
+    public Optional<String> currentContentText() {
         return path.currentContentText();
     }
 
     // region Result operations
 
-    public Optional<XmlFileObject> peekLastObject(){
+    public Optional<XmlFileObject> peekLastObject() {
         return result.peekLastTag();
     }
 
-    public Optional<XmlFileObject> popLastObject(){
+    public Optional<XmlFileObject> popLastObject() {
         return result.popLastResultTag();
     }
 
-    public void addObjectToResult(XmlFileObject tag){
+    public void addObjectToResult(XmlFileObject tag) {
         result.addTag(tag);
     }
 

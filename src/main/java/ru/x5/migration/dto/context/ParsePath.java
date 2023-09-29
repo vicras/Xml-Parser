@@ -1,15 +1,12 @@
 package ru.x5.migration.dto.context;
 
+import lombok.Getter;
+import lombok.ToString;
 import ru.x5.migration.dto.context.xml.NamedTag;
 import ru.x5.migration.dto.context.xml.TagTextContent;
 import ru.x5.migration.dto.context.xml.XmlElement;
-import lombok.Getter;
-import lombok.ToString;
 
-import java.util.Deque;
-import java.util.LinkedList;
-import java.util.Objects;
-import java.util.Optional;
+import java.util.*;
 
 import static java.util.Objects.isNull;
 import static java.util.Optional.empty;
@@ -18,7 +15,7 @@ import static java.util.Optional.of;
 @Getter
 @ToString
 public class ParsePath {
-    private Deque<XmlElement> tags = new LinkedList<>();
+    private final Deque<XmlElement> tags = new LinkedList<>();
 
     public Optional<String> currentContentText() {
         var head = tags.peekFirst();
@@ -29,15 +26,15 @@ public class ParsePath {
         }
     }
 
-    public Optional<String> currentTagName() {
+    public Optional<NamedTag> currentTag() {
         return tags.stream()
                 .filter(NamedTag.class::isInstance)
-                .map(tag -> ((NamedTag) tag).getName())
+                .map(NamedTag.class::cast)
                 .findFirst();
     }
 
-    public void newTag(String name) {
-        NamedTag namedTag = new NamedTag(name);
+    public void newTag(String name, Map<String, String> attributes) {
+        NamedTag namedTag = new NamedTag(name, attributes);
         tags.offerFirst(namedTag);
     }
 
