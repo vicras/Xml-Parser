@@ -4,6 +4,7 @@ import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.x5.migration.creator.inventory.InventoryCreator;
 import ru.x5.migration.creator.markdown.MarkdownCreator;
+import ru.x5.migration.creator.zzfo.ZzfoCreator;
 import ru.x5.migration.reader.XmlFileReader;
 import ru.x5.migration.reader.handler.XmlStaxEventHandler;
 import ru.x5.migration.reader.impl.AaltoBufferFileReader;
@@ -16,6 +17,13 @@ public class XmlReaderFactory {
     @Bean("markdownXmlReader")
     public XmlFileReader markdownXmlReader(MarkdownCreator markdownCreator) {
         var staxHandler = new XmlStaxEventHandler(markdownCreator);
+        var aaltoAsyncParser = new AaltoAsyncParser(staxHandler);
+        return new AaltoFullFileReader(aaltoAsyncParser);
+    }
+
+    @Bean("zzfoXmlReader")
+    public XmlFileReader zzfoXmlReader(ZzfoCreator zzfoCreator) {
+        var staxHandler = new XmlStaxEventHandler(zzfoCreator);
         var aaltoAsyncParser = new AaltoAsyncParser(staxHandler);
         return new AaltoFullFileReader(aaltoAsyncParser);
     }

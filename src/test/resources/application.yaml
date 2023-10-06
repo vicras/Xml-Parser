@@ -9,7 +9,7 @@ spring:
     username: postgres
     password: postgres
     hikari:
-      schema: ctrl
+      schema: sdd
 
 logging:
     level:
