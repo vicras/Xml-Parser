@@ -18,6 +18,7 @@ import java.util.Objects;
 import java.util.Optional;
 import java.util.function.Supplier;
 
+import static java.util.Objects.isNull;
 import static java.util.Objects.requireNonNullElse;
 import static org.mapstruct.ReportingPolicy.ERROR;
 
@@ -58,17 +59,20 @@ public abstract class InventoryMapper {
     public List<ZloInvTaskZone> toZloInvTaskZone(EDI_DC40 ediDc40, E1WVINH e1WVINH) {
         return e1WVINH.e1WVINI.stream()
                 .map(e1WVINI -> {
+                    String zonename = withNPECheck(() -> e1WVINI.ze1Wvinh.zones.zone.ZONENAME);
+                    Double zoneqty = withNPECheck(() -> toDouble(e1WVINI.ze1Wvinh.zones.zone.ZONEQTY));
+                    if(isNull(zonename) || isNull(zoneqty)) return null;
                     var taskPos = new ZloInvTaskZone();
                     taskPos.setXblni(e1WVINH.XBLNI);
                     taskPos.setSndprn(ediDc40.SNDPRN);
                     taskPos.setArtnr(e1WVINI.ARTNR);
-                    String zonename = withNPECheck(() -> e1WVINI.ze1Wvinh.zones.zone.ZONENAME);
-                    Double zoneqty = withNPECheck(() -> toDouble(e1WVINI.ze1Wvinh.zones.zone.ZONEQTY));
-                    taskPos.setZonename(requireNonNullElse(zonename, "test"));
-                    taskPos.setZoneqty(requireNonNullElse(zoneqty, 0.0));
+                    taskPos.setZonename(zonename);
+                    taskPos.setZoneqty(zoneqty);
                     taskPos.setDateCreated(LocalDateTime.now());
                     return taskPos;
-                }).toList();
+                })
+                .filter(Objects::nonNull)
+                .toList();
     }
 
     protected static LocalDate toLocalDate(String value) {
