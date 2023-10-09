@@ -36,7 +36,7 @@ public class ZloInvTaskPosDao extends BaseDao {
     }
 
     private String zlo_inv_task_posSQL() {
-        return "insert into zlo_inv_task_pos (parentid, xblni, sndprn, artnr, rsollmg, erfmg, erfme, fldval, datecreated)\n" +
+        return "insert into ctrl.zlo_inv_task_pos (parentid, xblni, sndprn, artnr, rsollmg, erfmg, erfme, fldval, datecreated)\n" +
                 "values (:parentid, :xblni, :sndprn, :artnr, :rsollmg, :erfmg, :erfme, :fldval, :datecreated);";
     }
 }

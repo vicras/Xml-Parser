@@ -1,0 +1,1 @@
+delete from sdd.order_proposal;

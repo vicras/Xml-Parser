@@ -11,10 +11,10 @@ import ru.x5.migration.reader.XmlFileReader;
 import ru.x5.migration.service.markdown.MarkdownService;
 
 @SpringBootTest
-@Sql(scripts = "db-clean.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+@Sql(scripts = "db-clean-markdown.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
 class MarkdownParserTests {
 
-    private static final String FILE_NAME = "examples/markdown/markdown1.xml";
+    private static final String FILE_NAME = "examples/markdown/markdown0.xml";
 
     @Autowired
     @Qualifier("markdownXmlReader")

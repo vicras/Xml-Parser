@@ -48,7 +48,7 @@ public class MarkdownDao extends BaseDao {
     }
 
     private String zlo_inv_task_hSQL() {
-        return "insert into xrg_markdown (werks, createdate, markdown_id, markdown_code, dt_creation, dt_price, dt_change, plu, price,\n" +
+        return "insert into ctrl.xrg_markdown (werks, createdate, markdown_id, markdown_code, dt_creation, dt_price, dt_change, plu, price,\n" +
                 "                              qty, regular_price, status, uom, type, dt_start, dt_end, sellingprice, sap_id, datecreated)\n" +
                 "values (:werks, :createdate, :markdown_id, :markdown_code, :dt_creation, :dt_price, :dt_change, :plu, :price, :qty, " +
                 ":regular_price, :status, :uom, :type, :dt_start, :dt_end, :sellingprice, :sap_id, :datecreated);";

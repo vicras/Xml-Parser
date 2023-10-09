@@ -57,12 +57,12 @@ public class ZloInvTaskHDao extends BaseDao {
     }
 
     private String zlo_inv_task_hSQL() {
-        return "insert into zlo_inv_task_h (id, xblni, sndprn, name, vpdat, ordng, keord, zdact, ztact, zdate, ztime, ddate, dtime, datecreated)\n" +
+        return "insert into ctrl.zlo_inv_task_h (id, xblni, sndprn, name, vpdat, ordng, keord, zdact, ztact, zdate, ztime, ddate, dtime, datecreated)\n" +
                 "values (:id, :xblni, :sndprn, :name, :vpdat, :ordng, :keord, :zdact, :ztact, :zdate, :ztime, :ddate, :dtime, :datecreated);";
     }
 
     private String nextSeqRequest() {
-        return "SELECT NEXTVAL('zlo_inv_task_h_seq') FROM generate_series(1,:amounts);";
+        return "SELECT NEXTVAL('ctrl.zlo_inv_task_h_seq') FROM generate_series(1,:amounts);";
     }
 
 }

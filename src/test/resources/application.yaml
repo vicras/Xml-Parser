@@ -4,12 +4,18 @@ spring:
     baselineOnMigrate: true
 
   datasource:
+#    ctrl-schema:
+#      driver-class-name: org.postgresql.Driver
+#      url: jdbc:postgresql://0.0.0.0:5555/migration?useLocalSessionState=true&useLocalTransactionState=true
+#      username: postgres
+#      password: postgres
+#      hikari:
+#        schema: ctrl
+
     driver-class-name: org.postgresql.Driver
     url: jdbc:postgresql://0.0.0.0:5555/migration?useLocalSessionState=true&useLocalTransactionState=true
     username: postgres
     password: postgres
-    hikari:
-      schema: ctrl
 
 logging:
     level:

@@ -34,7 +34,7 @@ public class ZloInvTaskZoneDao extends BaseDao {
     }
 
     private String zlo_inv_task_zoneSQL() {
-        return "insert into zlo_inv_task_zone (parentid, xblni, sndprn, artnr, zonename, zoneqty, datecreated)\n" +
+        return "insert into ctrl.zlo_inv_task_zone (parentid, xblni, sndprn, artnr, zonename, zoneqty, datecreated)\n" +
                 "values (:parentid, :xblni, :sndprn, :artnr, :zonename, :zoneqty, :datecreated);";
     }
 }

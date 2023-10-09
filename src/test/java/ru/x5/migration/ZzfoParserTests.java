@@ -5,13 +5,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.jdbc.Sql;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.dto.xml.zzfo.IDOC;
 import ru.x5.migration.reader.XmlFileReader;
 import ru.x5.migration.service.zzfo.ZzfoService;
 
 @SpringBootTest
-//@Sql(scripts = "db-clean.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+@Sql(scripts = "db-clean-zzfo.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
 class ZzfoParserTests {
 
     private static final String FILE_NAME = "examples/zzfo/zzfo0.xml";

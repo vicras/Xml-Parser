@@ -60,7 +60,7 @@ public class ZzfoDao extends BaseDao {
     }
 
     private String order_proposalSQL() {
-        return "insert into order_proposal (ordno, itmno, locnoto, matnr, locnofr, slsnr, maktx, matkl, quantity, unit, grquantity,\n" +
+        return "insert into sdd.order_proposal (ordno, itmno, locnoto, matnr, locnofr, slsnr, maktx, matkl, quantity, unit, grquantity,\n" +
                 "                            grquantity_unit, dif_exists, exc_exists, statval, delivtst, plntst, open_quantity,\n" +
                 "                            average_sales_quantity, conversion_factor, time_autoconfirmation, order_type, maximum,\n" +
                 "                            presentation_stock, purch_price, zminweight, zminbw, budget, norder, ndlvry, dt_insert)\n" +

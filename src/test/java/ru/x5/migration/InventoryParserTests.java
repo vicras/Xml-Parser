@@ -11,8 +11,6 @@ import ru.x5.migration.domain.inventory.ZloInvTaskH;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.dto.xml.inventory.IDOC;
 import ru.x5.migration.reader.XmlFileReader;
-import ru.x5.migration.reader.impl.AaltoBufferFileReader;
-import ru.x5.migration.reader.impl.AaltoFullFileReader;
 import ru.x5.migration.service.inventory.InventoryService;
 
 import java.util.List;
@@ -21,7 +19,7 @@ import java.util.stream.IntStream;
 import static java.math.BigInteger.ONE;
 
 @SpringBootTest
-@Sql(scripts = "db-clean.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+@Sql(scripts = "db-clean-inventory.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
 class InventoryParserTests {
 
     private static final String FILE_NAME = "examples/inventory/inventory2.xml";
