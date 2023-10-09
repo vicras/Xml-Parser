@@ -7,6 +7,7 @@ import org.springframework.transaction.annotation.Transactional;
 import ru.x5.migration.dao.BaseDao;
 import ru.x5.migration.domain.zzfo.OrderProposal;
 
+import java.time.LocalDateTime;
 import java.util.List;
 
 @Component

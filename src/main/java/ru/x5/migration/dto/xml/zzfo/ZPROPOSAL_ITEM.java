@@ -27,4 +27,11 @@ public class ZPROPOSAL_ITEM implements XmlFileObject {
     public String ZMINWEIGHT;
     public String ZMINBW;
     public String BUDGET;
+    public String NEXT_DATE_ORDER;
+    public String NEXT_DATE_DELIVERY;
+    public String MAXIMUM;
+    public String PRESENTATION_STOCK;
+    public String AVERAGE_SALES_QUANTITY;
+    public String OPEN_QUANTITY;
+    public String SLSNR;
 }

@@ -6,9 +6,11 @@ import ru.x5.migration.domain.zzfo.OrderProposal;
 import ru.x5.migration.dto.xml.zzfo.EDI_DC40;
 import ru.x5.migration.dto.xml.zzfo.ZPROPOSAL_ITEM;
 
+import java.time.LocalDateTime;
+
 import static org.mapstruct.ReportingPolicy.ERROR;
 
-@Mapper(componentModel = "spring", unmappedTargetPolicy = ERROR)
+@Mapper(componentModel = "spring", unmappedTargetPolicy = ERROR, imports = LocalDateTime.class)
 public abstract class ZzfoMapper {
 
     @Mapping(target = "ordno", source = "zproposalItem.ORDNO")
@@ -16,7 +18,7 @@ public abstract class ZzfoMapper {
     @Mapping(target = "locnoto", source = "zproposalItem.LOCNOTO")
     @Mapping(target = "matnr", source = "zproposalItem.MATNR")
     @Mapping(target = "locnofr", source = "zproposalItem.LOCNOFR")
-    @Mapping(target = "slsnr", ignore = true)
+    @Mapping(target = "slsnr", source = "zproposalItem.SLSNR")
     @Mapping(target = "maktx", source = "zproposalItem.MAKTX")
     @Mapping(target = "matkl", source = "zproposalItem.MATKL")
     @Mapping(target = "quantity", source = "zproposalItem.QUANTITY")
@@ -29,21 +31,21 @@ public abstract class ZzfoMapper {
     @Mapping(target = "statval", source = "zproposalItem.STATVAL")
     @Mapping(target = "delivtst", source = "zproposalItem.DELIVTST")
     @Mapping(target = "plntst", source = "zproposalItem.PLNTST")
-    @Mapping(target = "openQuantity", ignore = true)
+    @Mapping(target = "openQuantity", source = "zproposalItem.OPEN_QUANTITY")
 
-    @Mapping(target = "averageSalesQuantity", ignore = true)
+    @Mapping(target = "averageSalesQuantity", source = "zproposalItem.AVERAGE_SALES_QUANTITY")
     @Mapping(target = "conversionFactor", source = "zproposalItem.CONVERSION_FACTOR")
     @Mapping(target = "timeAutoconfirmation", source = "zproposalItem.TIME_AUTOCONFIRMATION")
     @Mapping(target = "orderType", source = "zproposalItem.ORDER_TYPE")
-    @Mapping(target = "maximum", ignore = true)
+    @Mapping(target = "maximum", source = "zproposalItem.MAXIMUM")
 
-    @Mapping(target = "presentationStock", ignore = true)
+    @Mapping(target = "presentationStock", source = "zproposalItem.PRESENTATION_STOCK")
     @Mapping(target = "purchPrice", source = "zproposalItem.PURCH_PRICE")
     @Mapping(target = "zminweight", source = "zproposalItem.ZMINWEIGHT")
     @Mapping(target = "zminbw", source = "zproposalItem.ZMINBW")
     @Mapping(target = "budget", source = "zproposalItem.BUDGET")
-    @Mapping(target = "norder", ignore = true)
-    @Mapping(target = "ndlvry", ignore = true)
-    @Mapping(target = "dtInsert", ignore = true)
+    @Mapping(target = "norder", source = "zproposalItem.NEXT_DATE_ORDER")
+    @Mapping(target = "ndlvry", source = "zproposalItem.NEXT_DATE_DELIVERY")
+    @Mapping(target = "dtInsert", expression = "java(LocalDateTime.now())")
     public abstract OrderProposal toOrder(EDI_DC40 ediDc40, ZPROPOSAL_ITEM zproposalItem);
 }
