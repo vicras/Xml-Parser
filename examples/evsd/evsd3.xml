@@ -1,0 +1,1659 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:mt_merc_suppl_upload_nq xmlns:ns0="http://x5.ru/erp">
+    <WERKS>NQHQ</WERKS>
+    <FILENAME>EVSD_2396_733931856.xml</FILENAME>
+    <DESTINATION>4321</DESTINATION>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>0ada22d0-ffb7-4ef6-834b-6e11cfebb46d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>671f6041-4814-45af-abf9-35106b65ce91</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420706</ProductItemGTIN>
+        <ProductCode>3687033</ProductCode>
+        <ProductName>Молоко СТО 2,5% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687033</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420706</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>d182ce85-2bf3-47f6-90f8-6f7a14d90204</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4660012420478</ProductItemGTIN>
+        <ProductCode>3687032</ProductCode>
+        <ProductName>Сметана ГОСТ СМК 20% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>2.25</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687032</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420478</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e796bc9a-7696-4d05-a34d-789c18f3be3d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>2.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>10.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>10</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>6183ce7c-2243-4c81-b97c-17724538f799</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>3.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>15.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>15</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>aa3eab49-9c90-4aa4-89a2-d462283588f9</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4660012420478</ProductItemGTIN>
+        <ProductCode>3687032</ProductCode>
+        <ProductName>Сметана ГОСТ СМК 20% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>2.25</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687032</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420478</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>cb3e5ce7-74a6-4641-af6e-669f67ff2c36</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>2bfa7b28-6888-4f4f-b92c-2fe679c18331</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420706</ProductItemGTIN>
+        <ProductCode>3687033</ProductCode>
+        <ProductName>Молоко СТО 2,5% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687033</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420706</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a5c7f538-9a76-4845-8a97-445282cfef10</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>ряженка</SubProduct>
+        <ProductItemGTIN>4660012420065</ProductItemGTIN>
+        <ProductCode>3687030</ProductCode>
+        <ProductName>Ряженка СТО 4% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687030</PLU>
+        <BaseVolume>10.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>10</Quantity>
+            <EAN13>4660012420065</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e1cfc53d-558e-4fbb-9214-c0c5f643c033</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>9.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>45.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>45</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e52faadc-de9b-4a18-92be-91557d40329a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>27.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>30.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>30</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>0a9bb890-2f2f-49c7-9013-c09493ffa7c3</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молокосодержащий пищевой продукт в ассортименте</SubProduct>
+        <ProductItemGTIN>4602400000718</ProductItemGTIN>
+        <ProductCode>2012699</ProductCode>
+        <ProductName>Сырок с изюмом / 4,5% / 0,125 / Пергамент</ProductName>
+        <VetVolume>6.875</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>2012699</PLU>
+        <BaseVolume>55.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>55</Quantity>
+            <EAN13>4602400000718</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786001</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>0d2388dc-8da1-4574-b956-86a010fa874a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молокосодержащий пищевой продукт в ассортименте</SubProduct>
+        <ProductItemGTIN>4602400002460</ProductItemGTIN>
+        <ProductCode>3637862</ProductCode>
+        <ProductName>Сырок с ванилью / 4,5% / 0,125 / Пергамент</ProductName>
+        <VetVolume>8.75</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3637862</PLU>
+        <BaseVolume>70.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>70</Quantity>
+            <EAN13>4602400002460</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786009</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>0de71897-5932-4564-9ccc-a0f16406f5f0</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4602400002538</ProductItemGTIN>
+        <ProductCode>3466950</ProductCode>
+        <ProductName>Молоко &quot;Отборное&quot; / 3,4-6,0% / 0,9 / Пюр Пак</ProductName>
+        <VetVolume>8.316</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3466950</PLU>
+        <BaseVolume>9.24</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>9</Quantity>
+            <EAN13>4602400002538</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786006</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>10febe7b-58c4-43e7-8bc6-00938d783d7c</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400001999</ProductItemGTIN>
+        <ProductCode>3491393</ProductCode>
+        <ProductName>Творог обезжиренный / 0,2 / Фольга</ProductName>
+        <VetVolume>3.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3491393</PLU>
+        <BaseVolume>18.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>18</Quantity>
+            <EAN13>4602400001999</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786007</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>17734923-e6f5-486a-863d-40269ee67e26</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>йогурт, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002415</ProductItemGTIN>
+        <ProductCode>3406362</ProductCode>
+        <ProductName>Йогурт клубника / 2,5% / 0,45 / Пюр Пак</ProductName>
+        <VetVolume>1.35</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3406362</PLU>
+        <BaseVolume>3.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4602400002415</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786005</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>17a0efe2-267b-4f6a-9176-e97494fede05</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>масло сливочное, полученное из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002026</ProductItemGTIN>
+        <ProductCode>3331189</ProductCode>
+        <ProductName>Масло &quot;Шоколадное&quot; / 62% / 0,180 / Фольга</ProductName>
+        <VetVolume>0.9</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3331189</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-14</ProductionDateFrom>
+        <ExpiryDateFrom>2020-03-14</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4602400002026</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786002</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>4751d129-8a93-497b-9ae2-fe9b9863b2f3</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002767</ProductItemGTIN>
+        <ProductCode>3630303</ProductCode>
+        <ProductName>Творог зерненый ГОСТ / 9% / 0,4 / П/эт</ProductName>
+        <VetVolume>1.2</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3630303</PLU>
+        <BaseVolume>3.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4602400002767</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786008</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>657b1cc5-6b4c-4b3a-a798-3724fdf3bdaa</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>масло сливочное, полученное из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400001975</ProductItemGTIN>
+        <ProductCode>3371288</ProductCode>
+        <ProductName>Масло &quot;Крестьянское&quot; / 72,5% / 0,180 / Фольга</ProductName>
+        <VetVolume>0.9</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3371288</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-15</ProductionDateFrom>
+        <ExpiryDateFrom>2020-03-15</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4602400001975</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786004</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>6ab6ee08-1557-4590-b103-20b6092bf373</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кисломолочный напиток, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400003016</ProductItemGTIN>
+        <ProductCode>3964405</ProductCode>
+        <ProductName>Ряженка ГОСТ / 4% / 0,4 / Пюр Пак</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3964405</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4602400003016</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786016</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>7d580b59-c9d4-4062-b04e-2a21d78be123</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002828</ProductItemGTIN>
+        <ProductCode>3646384</ProductCode>
+        <ProductName>Кефир ГОСТ / 2,5% / 0,4 / Фин Пак</ProductName>
+        <VetVolume>2.4</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3646384</PLU>
+        <BaseVolume>6.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>6</Quantity>
+            <EAN13>4602400002828</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786012</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>919c8be8-4758-4816-ac9f-2027d0edbb52</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>йогурт, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002194</ProductItemGTIN>
+        <ProductCode>3346068</ProductCode>
+        <ProductName>Йогурт &quot;Натуральный&quot; / 1,5% / 0,2 / ПЛ/СТАКАН</ProductName>
+        <VetVolume>2.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3346068</PLU>
+        <BaseVolume>10.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>10</Quantity>
+            <EAN13>4602400002194</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786003</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>963ebf43-5950-416b-a425-d2e6b662c42d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400001982</ProductItemGTIN>
+        <ProductCode>3682472</ProductCode>
+        <ProductName>Творог / 5% / 0,2 / Фольга</ProductName>
+        <VetVolume>3.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3682472</PLU>
+        <BaseVolume>18.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>18</Quantity>
+            <EAN13>4602400001982</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786014</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>980a7165-f132-443b-b727-98a2115479eb</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>йогурт, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400003054</ProductItemGTIN>
+        <ProductCode>3964573</ProductCode>
+        <ProductName>Йогурт LIKE SPORT Гранола &quot;Яблоко и орех&quot; / 1,5% / 0,220 / ПЛ/СТАКАН</ProductName>
+        <VetVolume>1.32</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3964573</PLU>
+        <BaseVolume>6.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>6</Quantity>
+            <EAN13>4602400003054</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786018</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>9b8d3940-16d1-4296-ba4d-3fdaae180769</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сливки пастеризованные</SubProduct>
+        <ProductItemGTIN>4602400002545</ProductItemGTIN>
+        <ProductCode>3644422</ProductCode>
+        <ProductName>СЛИВКИ ГОСТ / 10% / 0,2 / Пюр Пак</ProductName>
+        <VetVolume>3.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3644422</PLU>
+        <BaseVolume>15.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-26</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>15</Quantity>
+            <EAN13>4602400002545</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786011</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>b310ac4d-4d92-4565-aa12-6acd6e8def53</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002798</ProductItemGTIN>
+        <ProductCode>3641342</ProductCode>
+        <ProductName>Сметана ГОСТ / 20% / 0,4 / Фин Пак</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3641342</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4602400002798</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786010</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>cf289f70-d6d2-46f9-a64d-71ee0bc86ae5</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4602400002866</ProductItemGTIN>
+        <ProductCode>3663834</ProductCode>
+        <ProductName>Молоко ГОСТ / 2,5% / 0,9 / Фин Пак</ProductName>
+        <VetVolume>4.625</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3663834</PLU>
+        <BaseVolume>5.138888888888889</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4602400002866</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786013</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e6b783cc-b771-42bd-b409-6bc54a9ac382</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400003023</ProductItemGTIN>
+        <ProductCode>3921028</ProductCode>
+        <ProductName>Творожный Крем с ванилином / 5% / 0,13 / Пл/ст</ProductName>
+        <VetVolume>1.17</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3921028</PLU>
+        <BaseVolume>9.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-22</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>9</Quantity>
+            <EAN13>4602400003023</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786015</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000039723</VendorCodes>
+        <VendorInfo>
+            <INN>6321392047</INN>
+            <KPP>632101001</KPP>
+            <OGRN>1156313049012</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ТОЛЬЯТТИМОЛОКО&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Самарская обл., г. Тольятти, Коммунальная ул., д. 26
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476425</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>ТД-00018786</WayBillNo>
+        <TransportNumber>Н 253 АР</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>fd9c2724-6834-4ce8-827f-d8ae049bb25c</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кисломолочный напиток, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4602400002989</ProductItemGTIN>
+        <ProductCode>3964406</ProductCode>
+        <ProductName>Катык / 2,5% / 0,4 / Пюр Пак</ProductName>
+        <VetVolume>2.4</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3964406</PLU>
+        <BaseVolume>6.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <ProductionHourFrom>0</ProductionHourFrom>
+        <ExpiryHourFrom>0</ExpiryHourFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>АО &quot;Тольятимолоко&quot; (Тольятти, Коммунальная, 26)</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>6</Quantity>
+            <EAN13>4602400002989</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>BX</Code>
+            <Quantity>1</Quantity>
+            <BatchNo>200018786017</BatchNo>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000008517</VendorCodes>
+        <VendorCodes>0080005468</VendorCodes>
+        <VendorInfo>
+            <INN>7813382535</INN>
+            <KPP>781301001</KPP>
+            <OGRN>1077847458787</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;АРЛА ФУДС&quot;</SupplierName>
+            <SupplierAddress>121471, Российская Федерация, г. Москва, Рябиновая ул., д. 45, стр. 2</SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265256420</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>80602849</WayBillNo>
+        <TransportNumber>О952СН777</TransportNumber>
+        <TransportTrailerNumber>ЕВ015877</TransportTrailerNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>18c54fc9-4ded-43a8-bf39-5e9216f808ae</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сыр, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductCode>34821</ProductCode>
+        <ProductName>Сыр Арла Натура сливочный 45% цил 0,4 кг #31064</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>34821</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-02</ProductionDateFrom>
+        <ExpiryDateFrom>2020-09-28</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>Филиал ПАО Молочный комбинат &quot;Воронежский&quot; &quot;Калачеевский сырзавод&quot;
+        </ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PK</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751011312</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751011312</EAN13>
+        </PackagesList>
+        <PathPoints>
+            <PointNo>1</PointNo>
+            <Point>
+                <Name>Холодильный склад</Name>
+                <Country>RU</Country>
+                <RegionCode>50</RegionCode>
+                <Locality>г. Домодедово</Locality>
+                <Street>Логистическая ул.</Street>
+                <AddressView>142000, Российская Федерация, Московская обл., г. Домодедово, Логистическая ул., д. 1, стр.
+                    7
+                </AddressView>
+            </Point>
+            <TransportType>1</TransportType>
+            <TransportNumber>...</TransportNumber>
+        </PathPoints>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000008517</VendorCodes>
+        <VendorCodes>0080005468</VendorCodes>
+        <VendorInfo>
+            <INN>7813382535</INN>
+            <KPP>781301001</KPP>
+            <OGRN>1077847458787</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;АРЛА ФУДС&quot;</SupplierName>
+            <SupplierAddress>121471, Российская Федерация, г. Москва, Рябиновая ул., д. 45, стр. 2</SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265256420</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>80602849</WayBillNo>
+        <TransportNumber>О952СН777</TransportNumber>
+        <TransportTrailerNumber>ЕВ015877</TransportTrailerNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a6143166-02d2-4121-8be7-e72de7e07909</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сыр, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductCode>3619760</ProductCode>
+        <ProductName>Сыр Арла Натура сливочный Легкий 30 % цил 0,4 кг #90125</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3619760</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2019-12-27</ProductionDateFrom>
+        <ExpiryDateFrom>2020-04-25</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>Филиал ПАО Молочный комбинат &quot;Воронежский&quot; &quot;Калачеевский сырзавод&quot;
+        </ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PK</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751014191</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751014191</EAN13>
+        </PackagesList>
+        <PathPoints>
+            <PointNo>1</PointNo>
+            <Point>
+                <Name>Холодильный склад</Name>
+                <Country>RU</Country>
+                <RegionCode>50</RegionCode>
+                <Locality>г. Домодедово</Locality>
+                <Street>Логистическая ул.</Street>
+                <AddressView>142000, Российская Федерация, Московская обл., г. Домодедово, Логистическая ул., д. 1, стр.
+                    7
+                </AddressView>
+            </Point>
+            <TransportType>1</TransportType>
+            <TransportNumber>...</TransportNumber>
+        </PathPoints>
+    </body>
+    <head>
+        <caduceusApiKey>X5</caduceusApiKey>
+        <caduceusApiVersion>20170901</caduceusApiVersion>
+        <resStatusCode>0</resStatusCode>
+        <resStatusMsg>Успешно</resStatusMsg>
+        <reqTraceId>d04fee02-e1b1-4b3a-bff2-c261c4ce8899</reqTraceId>
+        <objsCount>31</objsCount>
+    </head>
+</ns0:mt_merc_suppl_upload_nq>

@@ -1,0 +1,2145 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:mt_merc_suppl_upload_nq xmlns:ns0="http://x5.ru/erp">
+    <WERKS>NQHQ</WERKS>
+    <FILENAME>EVSD_2396_749845805.xml</FILENAME>
+    <DESTINATION>4321</DESTINATION>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000048040</VendorCodes>
+        <VendorInfo>
+            <INN>6321378317</INN>
+            <OGRN>1156320003894</OGRN>
+            <SupplierName>Общество с ограниченной ответственностью &quot;ВОЛГА ПРОДУКТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Московское ш., д. 4Б
+            </SupplierAddress>
+        </VendorInfo>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>УВ00002776</WayBillNo>
+        <TransportNumber>Н211УН199</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>48743367-6eda-48e3-977e-38e4f52aa7f9</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4600653108786</ProductItemGTIN>
+        <ProductItemName>Молоко питьевое пастеризованное м.д.ж. 2,5%, ТМ Село Зеленое, ПЭТ бут., 0,905л
+        </ProductItemName>
+        <ProductCode>9071291</ProductCode>
+        <ProductName>Молоко питьевое пастеризованное м.д.ж. 2,5%, ТМ Село Зеленое, Пэт бут., 0,905л (0,93кг)
+        </ProductName>
+        <VetVolume>11.16</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-14</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-01</ExpiryDateFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;КАЗАНСКИЙ МОЛОЧНЫЙ КОМБИНАТ&quot;</ProducersList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000048040</VendorCodes>
+        <VendorInfo>
+            <INN>6321378317</INN>
+            <OGRN>1156320003894</OGRN>
+            <SupplierName>Общество с ограниченной ответственностью &quot;ВОЛГА ПРОДУКТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Московское ш., д. 4Б
+            </SupplierAddress>
+        </VendorInfo>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>УВ00002776</WayBillNo>
+        <TransportNumber>Н211УН199</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>4a450038-0625-4890-a214-45b5604dd96f</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>2270496</ProductItemCode>
+        <ProductItemGTIN>4607064311873</ProductItemGTIN>
+        <ProductItemName>Творог м.д.ж. 5,0%, ТМ &quot;Село Зеленое&quot;, Тр пакет, 0,2кг</ProductItemName>
+        <ProductCode>2270496</ProductCode>
+        <ProductName>Творог м.д.ж. 5,0%, ТМ &quot;Село Зеленое&quot;, Тр пакет, 0,2кг</ProductName>
+        <VetVolume>0.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3442623</PLU>
+        <BaseVolume>4.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-14</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-08</ExpiryDateFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Милком&quot; производственная площадка &quot;Глазов-молоко&quot;</ProducersList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000048040</VendorCodes>
+        <VendorInfo>
+            <INN>6321378317</INN>
+            <OGRN>1156320003894</OGRN>
+            <SupplierName>Общество с ограниченной ответственностью &quot;ВОЛГА ПРОДУКТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Московское ш., д. 4Б
+            </SupplierAddress>
+        </VendorInfo>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>УВ00002776</WayBillNo>
+        <TransportNumber>Н211УН199</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>71fc0e70-4110-4aee-b577-e2ba856ecbbf</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>1070199</ProductItemCode>
+        <ProductItemGTIN>4600653107574</ProductItemGTIN>
+        <ProductItemName>Молоко питьевое пастеризованное м.д.ж. 3,2% Пэт бут 2кг &quot;Село Зеленое&quot;
+        </ProductItemName>
+        <ProductCode>1070199</ProductCode>
+        <ProductName>Молоко питьевое пастеризованное м.д.ж. 3,2%, ТМ Село Зеленое, Пэт бут., 2кг (1,947л)</ProductName>
+        <VetVolume>8.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3425329</PLU>
+        <BaseVolume>4.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-15</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-02</ExpiryDateFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;МИЛКОМ&quot; производственная площадка &quot;Ижмолоко&quot;</ProducersList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000048040</VendorCodes>
+        <VendorInfo>
+            <INN>6321378317</INN>
+            <OGRN>1156320003894</OGRN>
+            <SupplierName>Общество с ограниченной ответственностью &quot;ВОЛГА ПРОДУКТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Московское ш., д. 4Б
+            </SupplierAddress>
+        </VendorInfo>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>УВ00002776</WayBillNo>
+        <TransportNumber>Н211УН199</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>72a4f73d-c8df-40a6-a20b-12c989c12b8e</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>1040630</ProductItemCode>
+        <ProductItemGTIN>4600653108205</ProductItemGTIN>
+        <ProductItemName>Кефир м.д.ж. 1,0%, ТМ Село Зеленое, Пэт бут., 0,93кг</ProductItemName>
+        <ProductCode>1040630</ProductCode>
+        <ProductName>Кефир м.д.ж. 1,0%, ТМ Село Зеленое, Пэт бут., 0,93кг</ProductName>
+        <VetVolume>5.58</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3604602</PLU>
+        <BaseVolume>6.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-15</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;МИЛКОМ&quot; производственная площадка &quot;Ижмолоко&quot;</ProducersList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000048040</VendorCodes>
+        <VendorInfo>
+            <INN>6321378317</INN>
+            <OGRN>1156320003894</OGRN>
+            <SupplierName>Общество с ограниченной ответственностью &quot;ВОЛГА ПРОДУКТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Московское ш., д. 4Б
+            </SupplierAddress>
+        </VendorInfo>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>УВ00002776</WayBillNo>
+        <TransportNumber>Н211УН199</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>7769e96c-144f-4d62-a8d5-a331351a9acf</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4600653108816</ProductItemGTIN>
+        <ProductItemName>Молоко питьевое пастеризованное м.д.ж. 3,2%, ТМ Село Зеленое, ПЭТ бут, 0,93кг (0,906л)
+        </ProductItemName>
+        <ProductCode>9071292</ProductCode>
+        <ProductName>Молоко питьевое пастеризованное м.д.ж. 3,2%, ТМ Село Зеленое, ПЭТ бут, 0,93кг (0,906л)
+        </ProductName>
+        <VetVolume>19.53</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-03</ExpiryDateFrom>
+        <TransportStorageType>3</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;КАЗАНСКИЙ МОЛОЧНЫЙ КОМБИНАТ&quot;</ProducersList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>1e072ad7-db7a-4337-ba27-d06dae040ad5</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>14095</ProductItemCode>
+        <ProductItemGTIN>4601751016584</ProductItemGTIN>
+        <ProductItemName>Сметана Вкуснотеево 300г 20% стакан 14095</ProductItemName>
+        <ProductCode>14095</ProductCode>
+        <ProductName>Сметана Вкуснотеево 300г 20% стакан #14095</ProductName>
+        <VetVolume>0.9</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3634033</PLU>
+        <BaseVolume>3.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-13</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-31</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4601751016584</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>20672bb2-007e-4754-8a2f-a3c04f8bca66</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко ультрапастеризованное</SubProduct>
+        <ProductItemCode>11113</ProductItemCode>
+        <ProductItemGTIN>4601751008299</ProductItemGTIN>
+        <ProductItemName>Молоко ультрапаст. Вкуснотеево 200мл 2,5% ТСА 11113</ProductItemName>
+        <ProductCode>11113</ProductCode>
+        <ProductName>Молоко ультрапаст. Вкуснотеево 200мл 2,5% ТСА 11113</ProductName>
+        <VetVolume>1.028</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3301443</PLU>
+        <BaseVolume>5.14</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-02</ProductionDateFrom>
+        <ExpiryDateFrom>2020-06-30</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4601751008299</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>436d56eb-1ba5-4420-9c65-23e1b7e85bc8</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко ультрапастеризованное</SubProduct>
+        <ProductItemCode>11114</ProductItemCode>
+        <ProductItemGTIN>4601751008312</ProductItemGTIN>
+        <ProductItemName>Молоко ультрапаст. Вкуснотеево 200мл 3,2% ТСА 11114</ProductItemName>
+        <ProductCode>11114</ProductCode>
+        <ProductName>Молоко ультрапаст. Вкуснотеево 200мл 3,2% ТСА 11114</ProductName>
+        <VetVolume>1.027</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3301445</PLU>
+        <BaseVolume>5.135</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2019-12-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-06-14</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4601751008312</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>4c84dab0-71e7-4ab6-921a-991c5fd690b8</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80704</ProductItemCode>
+        <ProductItemGTIN>4601751004062</ProductItemGTIN>
+        <ProductItemName>Кефир Волжские просторы &quot;Здоровье&quot; 500г 2,5% ФП #80704</ProductItemName>
+        <ProductCode>80704</ProductCode>
+        <ProductName>Кефир Волжские просторы &quot;Здоровье&quot; 500г 2,5% ФП #80704</ProductName>
+        <VetVolume>8.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>16</Quantity>
+            <EAN13>4601751004062</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>53bb363a-3080-4e2c-80dc-116ed5fd7ed1</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>15234</ProductItemCode>
+        <ProductItemGTIN>4601751003171</ProductItemGTIN>
+        <ProductItemName>Творог Вкуснотеево 175г 9% ванночка #15234</ProductItemName>
+        <ProductCode>15234</ProductCode>
+        <ProductName>Творог Вкуснотеево 175г 9% ванночка #15234</ProductName>
+        <VetVolume>0.875</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-14</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-04</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4601751003171</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>64e522f5-06ef-470f-8174-3507a14fdf6a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80817</ProductItemCode>
+        <ProductItemGTIN>4601751016829</ProductItemGTIN>
+        <ProductItemName>Творог Волжские Просторы 300г 0,5% стабилобэг #80817</ProductItemName>
+        <ProductCode>80817</ProductCode>
+        <ProductName>Творог Волжские Просторы 300г 0,5% стабилобэг #80817</ProductName>
+        <VetVolume>1.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-30</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>6</Quantity>
+            <EAN13>4601751016829</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>77545d66-65b7-4963-b08c-c5d29a457864</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>14157</ProductItemCode>
+        <ProductItemGTIN>4601751016621</ProductItemGTIN>
+        <ProductItemName>Творог Вкуснотеево 300г 0,5% стакан #14157</ProductItemName>
+        <ProductCode>14157</ProductCode>
+        <ProductName>Творог Вкуснотеево 300г 0,5% стакан #14157</ProductName>
+        <VetVolume>0.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3634731</PLU>
+        <BaseVolume>2.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-13</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-02</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751016621</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>77f90c15-e161-491b-b83b-b05737403694</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>14157</ProductItemCode>
+        <ProductItemGTIN>4601751016621</ProductItemGTIN>
+        <ProductItemName>Творог Вкуснотеево 300г 0,5% стакан #14157</ProductItemName>
+        <ProductCode>14157</ProductCode>
+        <ProductName>Творог Вкуснотеево 300г 0,5% стакан #14157</ProductName>
+        <VetVolume>0.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3634731</PLU>
+        <BaseVolume>2.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-04</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751016621</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>7da1b0dd-5bf9-4e70-aefb-031e49264f64</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80719</ProductItemCode>
+        <ProductItemGTIN>4601751003812</ProductItemGTIN>
+        <ProductItemName>Сметана Волжские просторы* 450г 20% ФП #80719</ProductItemName>
+        <ProductCode>80719</ProductCode>
+        <ProductName>Сметана Волжские просторы* 450г 20% ФП #80719</ProductName>
+        <VetVolume>3.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-30</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>8</Quantity>
+            <EAN13>4601751003812</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>806bf8f0-537f-4a29-a9a6-fcda28e2073a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сливки ультрапастеризованные</SubProduct>
+        <ProductItemCode>14085</ProductItemCode>
+        <ProductItemGTIN>4601751015204</ProductItemGTIN>
+        <ProductItemName>Сливки ультрапаст. Вкуснотеево 475г 10% ТБ Сквэр 14085</ProductItemName>
+        <ProductCode>14085</ProductCode>
+        <ProductName>Сливки ультрапаст. Вкуснотеево 475г 10% ТБ Сквэр 14085</ProductName>
+        <VetVolume>1.9</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2019-12-11</ProductionDateFrom>
+        <ExpiryDateFrom>2020-04-09</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751015204</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>840cd2d5-a591-420e-aef2-d788b4e520f1</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>масло сливочное, полученное из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>90136</ProductItemCode>
+        <ProductItemGTIN>4601751015655</ProductItemGTIN>
+        <ProductItemName>Масло слив. Вкуснотеево Традиционное 200г 82,5% линкавер 90136</ProductItemName>
+        <ProductCode>90136</ProductCode>
+        <ProductName>Масло слив. Вкуснотеево Традиционное 200г 82,5% линкавер 90136</ProductName>
+        <VetVolume>0.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3612778</PLU>
+        <BaseVolume>4.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-10</ProductionDateFrom>
+        <ExpiryDateFrom>2020-03-10</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>Филиал ПАО Молочный комбинат &quot;Воронежский&quot; &quot;Калачеевский сырзавод&quot;
+        </ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751015655</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>8e8ab151-ada9-40b4-90ae-350dd82d8a76</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80702</ProductItemCode>
+        <ProductItemGTIN>4601751003836</ProductItemGTIN>
+        <ProductItemName>Кефир Волжские просторы* 500г 2,5% ФП #80702</ProductItemName>
+        <ProductCode>80702</ProductCode>
+        <ProductName>Кефир Волжские просторы* 500г 2,5% ФП #80702</ProductName>
+        <VetVolume>12.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>24</Quantity>
+            <EAN13>4601751003836</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>9360ee44-6b8b-4e9b-9227-72ad6d023d4b</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>15234</ProductItemCode>
+        <ProductItemGTIN>4601751003171</ProductItemGTIN>
+        <ProductItemName>Творог Вкуснотеево 175г 9% ванночка #15234</ProductItemName>
+        <ProductCode>15234</ProductCode>
+        <ProductName>Творог Вкуснотеево 175г 9% ванночка #15234</ProductName>
+        <VetVolume>0.525</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-12</ProductionDateFrom>
+        <ExpiryDateFrom>2020-02-02</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4601751003171</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>98605568-a98d-4e3e-a212-8c1f6537543d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>масса творожная, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>33082</ProductItemCode>
+        <ProductItemGTIN>4601751003683</ProductItemGTIN>
+        <ProductItemName>Масса творож. Вкуснотеево Изюм 180г 20% пленка #33082</ProductItemName>
+        <ProductCode>33082</ProductCode>
+        <ProductName>Масса творож. Вкуснотеево Изюм 180г 20% пленка #33082</ProductName>
+        <VetVolume>0.54</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>2131377</PLU>
+        <BaseVolume>3.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-14</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-26</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Маслодел&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4601751003683</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a1a4d2a7-66a6-4d40-b47f-4de49e817fd4</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>ряженка, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80703</ProductItemCode>
+        <ProductItemGTIN>4601751003843</ProductItemGTIN>
+        <ProductItemName>Ряженка Волжские просторы* 500г 2,5% ФП #80703</ProductItemName>
+        <ProductCode>80703</ProductCode>
+        <ProductName>Ряженка Волжские просторы* 500г 2,5% ФП #80703</ProductName>
+        <VetVolume>10.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>20</Quantity>
+            <EAN13>4601751003843</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a1c0b3d9-b1dc-4a38-8605-8294c82a656e</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>80731</ProductItemCode>
+        <ProductItemGTIN>4601751003782</ProductItemGTIN>
+        <ProductItemName>Молоко паст. Волжские просторы 900г 2,5% ФП 80731</ProductItemName>
+        <ProductCode>80731</ProductCode>
+        <ProductName>Молоко паст. Волжские просторы 900г 2,5% ФП 80731</ProductName>
+        <VetVolume>10.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-23</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751003782</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>PO</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a76c064f-b666-4fcb-893d-a3d9850f2c5d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80679</ProductItemCode>
+        <ProductItemGTIN>4601751005151</ProductItemGTIN>
+        <ProductItemName>Кефир Волжские просторы 900г 2,5% ФП #80679</ProductItemName>
+        <ProductCode>80679</ProductCode>
+        <ProductName>Кефир Волжские просторы 900г 2,5% ФП #80679</ProductName>
+        <VetVolume>18.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>20</Quantity>
+            <EAN13>4601751005151</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>2</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>b527cf9c-3352-4663-b3ca-4b9f7b52f98e</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80792</ProductItemCode>
+        <ProductItemGTIN>4601751014955</ProductItemGTIN>
+        <ProductItemName>Сметана Волжские просторы 200г 20% ФП #80792</ProductItemName>
+        <ProductCode>80792</ProductCode>
+        <ProductName>Сметана Волжские просторы 200г 20% ФП #80792</ProductName>
+        <VetVolume>1.6</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-30</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>8</Quantity>
+            <EAN13>4601751014955</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>b5cc274a-3575-4d0e-b20a-7f4d7fadf046</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80701</ProductItemCode>
+        <ProductItemGTIN>4601751003829</ProductItemGTIN>
+        <ProductItemName>Кефир Волжские просторы* 500г 0,1% ФП #80701</ProductItemName>
+        <ProductCode>80701</ProductCode>
+        <ProductName>Кефир Волжские просторы* 500г 0,1% ФП #80701</ProductName>
+        <VetVolume>4.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>8</Quantity>
+            <EAN13>4601751003829</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>b9f6fd80-63d2-4a6e-824c-8fba37f9a274</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80767</ProductItemCode>
+        <ProductItemGTIN>4601751003966</ProductItemGTIN>
+        <ProductItemName>творог Волжские просторы &quot;Умница&quot; 200г 9% пленка #80767</ProductItemName>
+        <ProductCode>80767</ProductCode>
+        <ProductName>творог Волжские просторы &quot;Умница&quot; 200г 9% пленка #80767</ProductName>
+        <VetVolume>2.4</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-25</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751003966</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>bba1b919-b507-4a26-9447-1554de92eb6d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сливки ультрапастеризованные</SubProduct>
+        <ProductItemCode>14063</ProductItemCode>
+        <ProductItemGTIN>4601751010995</ProductItemGTIN>
+        <ProductItemName>Сливки ультрапаст. Волжские просторы 200г 20% Эколин 14063</ProductItemName>
+        <ProductCode>14063</ProductCode>
+        <ProductName>Сливки ультрапаст. Волжские просторы 200г 20% Эколин 14063</ProductName>
+        <VetVolume>0.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2019-12-28</ProductionDateFrom>
+        <ExpiryDateFrom>2020-03-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751010995</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>c544c630-2ad8-4219-8d04-0d4551bbba0a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80793</ProductItemCode>
+        <ProductItemGTIN>4601751015037</ProductItemGTIN>
+        <ProductItemName>Сметана Волжские просторы 200г 25% ФП #80793</ProductItemName>
+        <ProductCode>80793</ProductCode>
+        <ProductName>Сметана Волжские просторы 200г 25% ФП #80793</ProductName>
+        <VetVolume>0.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-29</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751015037</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>c9ffb46a-e465-464c-9e97-87613d2d9269</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>80787</ProductItemCode>
+        <ProductItemGTIN>4601751014511</ProductItemGTIN>
+        <ProductItemName>Молоко паст. Вкуснотеево 900г 3,2% LP 80787</ProductItemName>
+        <ProductCode>80787</ProductCode>
+        <ProductName>Молоко паст. Вкуснотеево 900г 3,2% LP 80787</ProductName>
+        <VetVolume>16.2</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>80787</PLU>
+        <BaseVolume>16.2</BaseVolume>
+        <BaseUoM>КГ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>18</Quantity>
+            <EAN13>4601751014511</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>PA</Code>
+            <Quantity>2</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>d2578bce-dde8-4e44-8eee-b2fd8cc23611</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>80648</ProductItemCode>
+        <ProductItemGTIN>4601751009975</ProductItemGTIN>
+        <ProductItemName>Сметана Волжские просторы 450г 25% ФП #80648</ProductItemName>
+        <ProductCode>80648</ProductCode>
+        <ProductName>Сметана Волжские просторы 450г 25% ФП #80648</ProductName>
+        <VetVolume>1.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-30</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751009975</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>d3499037-ecf9-4727-aa91-73aceaffd310</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молочная продукция</SubProduct>
+        <ProductItemCode>80748</ProductItemCode>
+        <ProductItemGTIN>4601751009227</ProductItemGTIN>
+        <ProductItemName>Бифилюкс Волжские просторы 450г 2,5% ФП 80748</ProductItemName>
+        <ProductCode>80748</ProductCode>
+        <ProductName>Бифилюкс Волжские просторы 450г 2,5% ФП 80748</ProductName>
+        <VetVolume>1.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-16</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-23</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>4</Quantity>
+            <EAN13>4601751009227</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>PO</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>d872bfd9-9bdc-4cf6-b005-6935ba3718b2</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>кефир, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemCode>13041</ProductItemCode>
+        <ProductItemGTIN>4601751003096</ProductItemGTIN>
+        <ProductItemName>Кефир Вкуснотеево 500г 3,2% ТБ Сквэр #13041</ProductItemName>
+        <ProductCode>13041</ProductCode>
+        <ProductName>Кефир Вкуснотеево 500г 3,2% ТБ Сквэр #13041</ProductName>
+        <VetVolume>1.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-13</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ПАО Молочный комбинат &quot;Воронежский&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>3</Quantity>
+            <EAN13>4601751003096</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>0</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e24a9dde-1623-4193-8d09-6d8e7d051e50</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>80715</ProductItemCode>
+        <ProductItemGTIN>4601751004079</ProductItemGTIN>
+        <ProductItemName>Молоко паст. Волжские просторы &quot;Умница&quot; 1000г 3,2% ФП #80715</ProductItemName>
+        <ProductCode>80715</ProductCode>
+        <ProductName>Молоко паст. Волжские просторы &quot;Умница&quot; 1000г 3,2% ФП #80715</ProductName>
+        <VetVolume>6.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-23</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>6</Quantity>
+            <EAN13>4601751004079</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>f0d7f17c-9c03-4fb0-b528-34bcfdd3d346</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>80732</ProductItemCode>
+        <ProductItemGTIN>4601751003799</ProductItemGTIN>
+        <ProductItemName>Молоко паст. Волжские просторы 900г 3,2% ФП 80732</ProductItemName>
+        <ProductCode>80732</ProductCode>
+        <ProductName>Молоко паст. Волжские просторы 900г 3,2% ФП 80732</ProductName>
+        <VetVolume>14.4</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-23</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>16</Quantity>
+            <EAN13>4601751003799</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>PO</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000000034</VendorCodes>
+        <VendorCodes>7000015035</VendorCodes>
+        <VendorCodes>7000018361</VendorCodes>
+        <VendorCodes>7000011855</VendorCodes>
+        <VendorCodes>7000013101</VendorCodes>
+        <VendorCodes>7000006794</VendorCodes>
+        <VendorCodes>7000005836</VendorCodes>
+        <VendorCodes>7000005921</VendorCodes>
+        <VendorCodes>7000008543</VendorCodes>
+        <VendorCodes>7000011053</VendorCodes>
+        <VendorCodes>1000003990</VendorCodes>
+        <VendorCodes>1000003390</VendorCodes>
+        <VendorCodes>1000004420</VendorCodes>
+        <VendorCodes>0080004317</VendorCodes>
+        <VendorCodes>0080004601</VendorCodes>
+        <VendorCodes>7000025550</VendorCodes>
+        <VendorInfo>
+            <INN>3662104737</INN>
+            <KPP>366201001</KPP>
+            <OGRN>1053600519972</OGRN>
+            <SupplierName>АКЦИОНЕРНОЕ ОБЩЕСТВО &quot;МОЛВЕСТ&quot;</SupplierName>
+            <SupplierAddress>Российская Федерация, Ульяновская обл., г. Ульяновск, Можайского ул., дом 7
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476416</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>У013659</WayBillNo>
+        <TransportNumber>О820 ЕО73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>f52c7910-23c3-488f-b2a0-f5987ad02535</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemCode>80786</ProductItemCode>
+        <ProductItemGTIN>4601751014535</ProductItemGTIN>
+        <ProductItemName>Молоко паст. Особое Вкуснотеево 900г 3,8% LP 80786</ProductItemName>
+        <ProductCode>80786</ProductCode>
+        <ProductName>Молоко паст. Особое Вкуснотеево 900г 3,8% LP 80786</ProductName>
+        <VetVolume>8.1</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-26</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОАО &quot;Молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>9</Quantity>
+            <EAN13>4601751014535</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>PA</Code>
+            <Quantity>1</Quantity>
+        </PackagesList>
+    </body>
+    <head>
+        <caduceusApiKey>X5</caduceusApiKey>
+        <caduceusApiVersion>20170901</caduceusApiVersion>
+        <resStatusCode>0</resStatusCode>
+        <resStatusMsg>Успешно</resStatusMsg>
+        <reqTraceId>08846901-12ae-4fb4-920c-6dca0d549bd0</reqTraceId>
+        <objsCount>34</objsCount>
+    </head>
+</ns0:mt_merc_suppl_upload_nq>

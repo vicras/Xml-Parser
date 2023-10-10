@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:mt_merc_suppl_upload_nq xmlns:ns0="http://x5.ru/erp">
+    <WERKS>NQHQ</WERKS>
+    <FILENAME>EVSD_2396_170376577.xml</FILENAME>
+    <DESTINATION>4321</DESTINATION>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000008517</VendorCodes>
+        <VendorCodes>0080005468</VendorCodes>
+        <SAPOrder>6265256420</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>80602849</WayBillNo>
+        <TransportNumber>О952СН777</TransportNumber>
+        <TransportTrailerNumber>ЕВ015877</TransportTrailerNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сыр, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductCode>34821</ProductCode>
+        <ProductName>Сыр Арла Натура сливочный 45% цил 0,4 кг #31064</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>34821</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-02</ProductionDateFrom>
+        <ExpiryDateFrom>2020-09-28</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>Филиал ПАО Молочный комбинат &quot;Воронежский&quot; &quot;Калачеевский сырзавод&quot;
+        </ProducersList>
+        <EVetDoc>
+            <VetDocUUID>18c54fc9-4ded-43a8-bf39-5e9216f808ae</VetDocUUID>
+        </EVetDoc>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PK</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751011312</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751011312</EAN13>
+        </PackagesList>
+        <PathPoints>
+            <PointNo>1</PointNo>
+            <Point>
+                <Name>Холодильный склад</Name>
+                <Country>RU</Country>
+                <RegionCode>50</RegionCode>
+                <Locality>г. Домодедово</Locality>
+                <Street>Логистическая ул.</Street>
+                <AddressView>142000, Российская Федерация, Московская обл., г. Домодедово, Логистическая ул., д. 1, стр.
+                    7
+                </AddressView>
+            </Point>
+            <TransportType>1</TransportType>
+            <TransportNumber>...</TransportNumber>
+        </PathPoints>
+        <VendorInfo>
+            <INN>7813382535</INN>
+            <KPP>781301001</KPP>
+            <OGRN>1077847458787</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;АРЛА ФУДС&quot;</SupplierName>
+            <SupplierAddress>121471, Российская Федерация, г. Москва, Рябиновая ул., д. 45, стр. 2</SupplierAddress>
+        </VendorInfo>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000008517</VendorCodes>
+        <VendorCodes>0080005468</VendorCodes>
+        <VendorInfo>
+            <INN>7813382535</INN>
+            <KPP>781301001</KPP>
+            <OGRN>1077847458787</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;АРЛА ФУДС&quot;</SupplierName>
+            <SupplierAddress>121471, Российская Федерация, г. Москва, Рябиновая ул., д. 45, стр. 2</SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265256420</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>80602849</WayBillNo>
+        <TransportNumber>О952СН777</TransportNumber>
+        <TransportTrailerNumber>ЕВ015877</TransportTrailerNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a6143166-02d2-4121-8be7-e72de7e07909</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сыр, полученный из молока, подвергнутого пастеризации</SubProduct>
+        <ProductCode>3619760</ProductCode>
+        <ProductName>Сыр Арла Натура сливочный Легкий 30 % цил 0,4 кг #90125</ProductName>
+        <VetVolume>4.8</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3619760</PLU>
+        <BaseVolume>12.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2019-12-27</ProductionDateFrom>
+        <ExpiryDateFrom>2020-04-25</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>Филиал ПАО Молочный комбинат &quot;Воронежский&quot; &quot;Калачеевский сырзавод&quot;
+        </ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PK</Code>
+            <Quantity>12</Quantity>
+            <EAN13>4601751014191</EAN13>
+        </PackagesList>
+        <PackagesList>
+            <LineNo>2</LineNo>
+            <Level>4</Level>
+            <Code>CT</Code>
+            <Quantity>2</Quantity>
+            <EAN13>4601751014191</EAN13>
+        </PackagesList>
+        <PathPoints>
+            <PointNo>1</PointNo>
+            <Point>
+                <Name>Холодильный склад</Name>
+                <Country>RU</Country>
+                <RegionCode>50</RegionCode>
+                <Locality>г. Домодедово</Locality>
+                <Street>Логистическая ул.</Street>
+                <AddressView>142000, Российская Федерация, Московская обл., г. Домодедово, Логистическая ул., д. 1, стр.
+                    7
+                </AddressView>
+            </Point>
+            <TransportType>1</TransportType>
+            <TransportNumber>...</TransportNumber>
+        </PathPoints>
+    </body>
+    <head>
+        <caduceusApiKey>X5</caduceusApiKey>
+        <caduceusApiVersion>20170901</caduceusApiVersion>
+        <resStatusCode>0</resStatusCode>
+        <resStatusMsg>Успешно</resStatusMsg>
+        <reqTraceId>822f242a-6a04-4311-ab74-ecfd3d0841e2</reqTraceId>
+        <objsCount>2</objsCount>
+    </head>
+</ns0:mt_merc_suppl_upload_nq>

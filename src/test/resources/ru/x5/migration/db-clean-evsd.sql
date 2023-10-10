@@ -1,0 +1,1 @@
+delete from sap.evsd_buffer;

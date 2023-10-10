@@ -1,0 +1,531 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ns0:mt_merc_suppl_upload_nq xmlns:ns0="http://x5.ru/erp">
+    <WERKS>NQHQ</WERKS>
+    <FILENAME>EVSD_2396_164841095.xml</FILENAME>
+    <DESTINATION>4321</DESTINATION>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>0ada22d0-ffb7-4ef6-834b-6e11cfebb46d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>671f6041-4814-45af-abf9-35106b65ce91</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420706</ProductItemGTIN>
+        <ProductCode>3687033</ProductCode>
+        <ProductName>Молоко СТО 2,5% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687033</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420706</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>d182ce85-2bf3-47f6-90f8-6f7a14d90204</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4660012420478</ProductItemGTIN>
+        <ProductCode>3687032</ProductCode>
+        <ProductName>Сметана ГОСТ СМК 20% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>2.25</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687032</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420478</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265476441</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6142</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e796bc9a-7696-4d05-a34d-789c18f3be3d</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>2.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>10.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>10</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>6183ce7c-2243-4c81-b97c-17724538f799</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>3.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>15.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>15</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>aa3eab49-9c90-4aa4-89a2-d462283588f9</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>сметана, полученная из молока, подвергнутого пастеризации</SubProduct>
+        <ProductItemGTIN>4660012420478</ProductItemGTIN>
+        <ProductCode>3687032</ProductCode>
+        <ProductName>Сметана ГОСТ СМК 20% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>2.25</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687032</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420478</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265480636</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6144</WayBillNo>
+        <TransportNumber>Е287ТА73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>cb3e5ce7-74a6-4641-af6e-669f67ff2c36</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>2bfa7b28-6888-4f4f-b92c-2fe679c18331</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420706</ProductItemGTIN>
+        <ProductCode>3687033</ProductCode>
+        <ProductName>Молоко СТО 2,5% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687033</PLU>
+        <BaseVolume>5.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>5</Quantity>
+            <EAN13>4660012420706</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>a5c7f538-9a76-4845-8a97-445282cfef10</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>ряженка</SubProduct>
+        <ProductItemGTIN>4660012420065</ProductItemGTIN>
+        <ProductCode>3687030</ProductCode>
+        <ProductName>Ряженка СТО 4% Фин.Пак.- 450гр.</ProductName>
+        <VetVolume>4.5</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687030</PLU>
+        <BaseVolume>10.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-27</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;ФОТИДА&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>10</Quantity>
+            <EAN13>4660012420065</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e1cfc53d-558e-4fbb-9214-c0c5f643c033</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>творог</SubProduct>
+        <ProductItemGTIN>4660012420058</ProductItemGTIN>
+        <ProductCode>3687562</ProductCode>
+        <ProductName>СМК Творог ГОСТ 9% ф/пак 200г</ProductName>
+        <VetVolume>9.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687562</PLU>
+        <BaseVolume>45.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Старомайнский молочный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>45</Quantity>
+            <EAN13>4660012420058</EAN13>
+        </PackagesList>
+    </body>
+    <body>
+        <BalanceUnitCode>RU06</BalanceUnitCode>
+        <PlantCode>2396</PlantCode>
+        <SystemType>NQ</SystemType>
+        <IPadress>10.63.55.10</IPadress>
+        <VendorCodes>7000019732</VendorCodes>
+        <VendorInfo>
+            <INN>7325057027</INN>
+            <KPP>732501001</KPP>
+            <OGRN>1057325089238</OGRN>
+            <SupplierName>ОБЩЕСТВО С ОГРАНИЧЕННОЙ ОТВЕТСТВЕННОСТЬЮ &quot;СИМБИРСКАЯ МОЛОЧНАЯ КОМПАНИЯ&quot;
+            </SupplierName>
+            <SupplierAddress>432035, Российская Федерация, Ульяновская обл., г. Ульяновск, Нефтяников проезд, д. 12
+            </SupplierAddress>
+        </VendorInfo>
+        <SAPOrder>6265537263</SAPOrder>
+        <WayBillDate>2020-01-17</WayBillDate>
+        <WayBillNo>6337</WayBillNo>
+        <TransportNumber>К912РХ73</TransportNumber>
+        <VetDocStatus>CONFIRMED</VetDocStatus>
+        <EVetDoc>
+            <VetDocUUID>e52faadc-de9b-4a18-92be-91557d40329a</VetDocUUID>
+        </EVetDoc>
+        <ProductType>Пищевые продукты</ProductType>
+        <Product>молоко и молочная продукция</Product>
+        <SubProduct>молоко пастеризованное</SubProduct>
+        <ProductItemGTIN>4660012420386</ProductItemGTIN>
+        <ProductCode>3687029</ProductCode>
+        <ProductName>Молоко СТО 3,2% Пюр.Пак.- 900мл.</ProductName>
+        <VetVolume>27.0</VetVolume>
+        <VetUoM>кг</VetUoM>
+        <PLU>3687029</PLU>
+        <BaseVolume>30.0</BaseVolume>
+        <BaseUoM>ШТ</BaseUoM>
+        <ProductionDateFrom>2020-01-17</ProductionDateFrom>
+        <ExpiryDateFrom>2020-01-24</ExpiryDateFrom>
+        <TransportStorageType>2</TransportStorageType>
+        <CountryOfOrigin>RU</CountryOfOrigin>
+        <ProducersList>ООО &quot;Тереньгульский маслодельный завод&quot;</ProducersList>
+        <PackagesList>
+            <LineNo>1</LineNo>
+            <Level>2</Level>
+            <Code>PP</Code>
+            <Quantity>30</Quantity>
+            <EAN13>4660012420386</EAN13>
+        </PackagesList>
+    </body>
+    <head>
+        <caduceusApiKey>X5</caduceusApiKey>
+        <caduceusApiVersion>20170901</caduceusApiVersion>
+        <resStatusCode>0</resStatusCode>
+        <resStatusMsg>Успешно</resStatusMsg>
+        <reqTraceId>91e40588-e7b3-434a-8ff3-7caf51a096eb</reqTraceId>
+        <objsCount>11</objsCount>
+    </head>
+</ns0:mt_merc_suppl_upload_nq>
