@@ -10,24 +10,10 @@ import java.util.Optional;
 
 import static java.util.Objects.isNull;
 
-public class CreatorUtils {
-    public static Object setTextValue(Object obj, String fieldName, String value) {
-        getFieldCaseInsensetive(obj, fieldName)
-                .ifPresent(field -> {
-                            ReflectionUtils.makeAccessible(field);
-                            ReflectionUtils.setField(field, obj, value);
-                        }
-                );
-        return obj;
-    }
+public class ReflectionPropertySetter implements XmlElementPropertySetter {
 
-    private static Optional<Field> getFieldCaseInsensetive(Object obj, String fieldName) {
-        Field[] fields = obj.getClass().getDeclaredFields();
-        return Arrays.stream(fields).filter(field -> field.getName().equalsIgnoreCase(fieldName))
-                .findFirst();
-    }
-
-    public static Object setObjectValue(Object obj, String fieldName, Object value) {
+    @Override
+    public Object setObjectValue(Object obj, String fieldName, Object value) {
         getFieldCaseInsensetive(obj, fieldName)
                 .ifPresent(field -> {
                             ReflectionUtils.makeAccessible(field);
@@ -37,6 +23,12 @@ public class CreatorUtils {
                         }
                 );
         return obj;
+    }
+
+    private static Optional<Field> getFieldCaseInsensetive(Object obj, String fieldName) {
+        Field[] fields = obj.getClass().getDeclaredFields();
+        return Arrays.stream(fields).filter(field -> field.getName().equalsIgnoreCase(fieldName))
+                .findFirst();
     }
 
     private static Object prepareValue(Object oldValue, Object newValue, Field field) {

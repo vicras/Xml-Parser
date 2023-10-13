@@ -1,6 +1,7 @@
 package ru.x5.migration.creator;
 
-import ru.x5.migration.creator.utils.CreatorUtils;
+import ru.x5.migration.creator.utils.CodeGenPropertySetter;
+import ru.x5.migration.creator.utils.XmlElementPropertySetter;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.dto.context.xml.NamedTag;
 import ru.x5.migration.dto.xml.XmlFileObject;
@@ -10,6 +11,8 @@ import java.util.Objects;
 import java.util.Optional;
 
 public abstract class AbstractEntityCreator implements EntityCreator {
+
+    private static final XmlElementPropertySetter propertySetter = new CodeGenPropertySetter();
 
     @Override
     public void newElement(ParseContext context) {
@@ -25,7 +28,7 @@ public abstract class AbstractEntityCreator implements EntityCreator {
 
     private XmlFileObject setAttributes(XmlFileObject obj, Map<String, String> attributes) {
         if (Objects.isNull(attributes) || attributes.isEmpty()) return obj;
-        attributes.forEach((attrName, attrValue) -> CreatorUtils.setTextValue(obj, attrName, attrValue));
+        attributes.forEach((attrName, attrValue) -> propertySetter.setObjectValue(obj, attrName, attrValue));
         return obj;
     }
 
@@ -47,7 +50,7 @@ public abstract class AbstractEntityCreator implements EntityCreator {
         lastObject.flatMap(objToSet ->
                 currentText.flatMap(value ->
                         currentTagName.map(field ->
-                                CreatorUtils.setTextValue(objToSet, field, value))));
+                                propertySetter.setObjectValue(objToSet, field, value))));
     }
 
     protected void setObjectValue(ParseContext context) {
@@ -58,7 +61,7 @@ public abstract class AbstractEntityCreator implements EntityCreator {
         parentObject.flatMap(parentObj ->
                 lastObject.flatMap(value ->
                         currentTagName.map(field ->
-                                CreatorUtils.setObjectValue(parentObj, field, value))));
+                                propertySetter.setObjectValue(parentObj, field, value))));
     }
 
     protected abstract Optional<XmlFileObject> newTagInstanceByName(String name);
