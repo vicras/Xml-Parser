@@ -3,6 +3,7 @@ package ru.x5.migration.config;
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 import ru.x5.migration.creator.bill.BillCreator;
+import ru.x5.migration.creator.doc.DocCreator;
 import ru.x5.migration.creator.evsd.EvsdCreator;
 import ru.x5.migration.creator.inventory.InventoryCreator;
 import ru.x5.migration.creator.markdown.MarkdownCreator;
@@ -19,6 +20,13 @@ public class XmlReaderFactory {
     @Bean("markdownXmlReader")
     public XmlFileReader markdownXmlReader(MarkdownCreator markdownCreator) {
         var staxHandler = new XmlStaxEventHandler(markdownCreator);
+        var aaltoAsyncParser = new AaltoAsyncParser(staxHandler);
+        return new AaltoFullFileReader(aaltoAsyncParser);
+    }
+
+    @Bean("docXmlReader")
+    public XmlFileReader docXmlReader(DocCreator docCreator) {
+        var staxHandler = new XmlStaxEventHandler(docCreator);
         var aaltoAsyncParser = new AaltoAsyncParser(staxHandler);
         return new AaltoFullFileReader(aaltoAsyncParser);
     }
