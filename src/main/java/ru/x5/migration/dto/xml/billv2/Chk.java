@@ -1,0 +1,55 @@
+package ru.x5.migration.dto.xml.billv2;
+
+import ru.x5.migration.dto.xml.XmlFileObject;
+
+public class Chk implements XmlFileObject {
+    public String PLANT;
+    public String DISTR_CHAN;
+    public String RPA_WID;
+    public String ZCHH_ID;
+    public String ZCH_NUM;
+    public String ZCASHIER;
+    public String ZTTYPE;
+    public String RPA_SAT;
+    public String BUSINESSDAYDATE;
+    public String TCTTIMSTMP;
+    public String CALDAY;
+    public String STORNO;
+    public String TIME;
+    public String CALMONTH;
+    public String CALQUARTER;
+    public String CALWEEK;
+    public String CALYEAR;
+    public String ZCUSTNUM;
+    public String ZPOSTYP;
+    public String WEEKDAY1;
+    public String DOC_CURRCY;
+    public String RPA_RLQ;
+    public String BASE_QTY;
+    public String RPA_SAT_POS;
+    public String ZPRICE;
+    public String ZDISCOUNT;
+    public String NORMALAMT;
+    public String ZBARCODE;
+    public String ZPRICEOLD;
+    public String ZPDTMINS;
+    public String ZCHFTIM;
+    public String ZDISCAMNT;
+    public String ZSRCSYS;
+    public String ZRECQ;
+    public String ZCUSTNUM2;
+    public String BONID;
+    public String MATERIAL;
+    public String ZETYP;
+    public String ZEANUPC;
+    public String SALES_UNIT;
+    public String BASE_UOM;
+    public String ZRTACTION;
+    public String ZPAY_TYP;
+    public String ZDISTYPE;
+    public String ZDISCNUM;
+    public String RPA_DID;
+    public String ZSCAN_TYPE;
+    public String DATAMATRIX;
+    public String DATEOSG;
+}
