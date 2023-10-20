@@ -11,8 +11,8 @@ import java.util.Optional;
 @Getter
 @ToString
 public class ParseContext {
-    private final ParsePath path;
-    private final ParseResult result;
+    protected final ParsePath path;
+    protected final ParseResult result;
 
     public ParseContext() {
         path = new ParsePath();

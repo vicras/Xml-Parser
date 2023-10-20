@@ -2,12 +2,14 @@ package ru.x5.migration.reader.parser;
 
 import com.fasterxml.aalto.AsyncByteArrayFeeder;
 import com.fasterxml.aalto.AsyncXMLStreamReader;
+import io.vavr.control.Try;
 import lombok.SneakyThrows;
 import lombok.extern.slf4j.Slf4j;
 import ru.x5.migration.dto.context.ParseContext;
 import ru.x5.migration.reader.handler.XmlStaxEventHandler;
 
 import java.util.Map;
+import java.util.UUID;
 import java.util.stream.Collectors;
 import java.util.stream.IntStream;
 
@@ -23,31 +25,49 @@ public class AaltoAsyncParser {
         this.xmlStaxEventHandler = xmlStaxEventHandler;
     }
 
+    // Init stream reader with root tag
+    // File should have only one root element
     @SneakyThrows
+    public void feedFakeRootElement(AsyncXMLStreamReader<AsyncByteArrayFeeder> streamReader) {
+        AsyncByteArrayFeeder inputFeeder = streamReader.getInputFeeder();
+        byte[] bytes = ("<parser" + UUID.randomUUID() + ">").getBytes();
+        inputFeeder.feedInput(bytes, 0, bytes.length);
+        while (streamReader.hasNext()) {
+            var eventId = streamReader.next();
+            if (EVENT_INCOMPLETE == eventId) {
+                return;
+            }
+        }
+    }
+
     public ParseContext handleFileBytes(
             byte[] allFileBytes,
             ParseContext context,
             AsyncXMLStreamReader<AsyncByteArrayFeeder> streamReader
     ) {
-        AsyncByteArrayFeeder inputFeeder = streamReader.getInputFeeder();
-        inputFeeder.feedInput(allFileBytes, 0, allFileBytes.length);
+        return Try.of(() -> {
+                    AsyncByteArrayFeeder inputFeeder = streamReader.getInputFeeder();
+                    inputFeeder.feedInput(allFileBytes, 0, allFileBytes.length);
 
-        while (streamReader.hasNext()) {
-            int eventId = streamReader.next();
-            if (START_DOCUMENT == eventId) {
-            } else if (START_ELEMENT == eventId) {
-                handleElementStarting(streamReader, context);
-            } else if (CHARACTERS == eventId) {
-                handleCharacters(streamReader, context);
-            } else if (END_ELEMENT == eventId) {
-                handleElementFinishing(streamReader, context);
-            } else if (EVENT_INCOMPLETE == eventId) {
-                return context;
-            } else {
-                log.warn("The event with ID={} wasn't processed", eventId);
-            }
-        }
-        return context;
+                    while (streamReader.hasNext()) {
+                        int eventId = streamReader.next();
+                        if (START_DOCUMENT == eventId) {
+                        } else if (START_ELEMENT == eventId) {
+                            handleElementStarting(streamReader, context);
+                        } else if (CHARACTERS == eventId) {
+                            handleCharacters(streamReader, context);
+                        } else if (END_ELEMENT == eventId) {
+                            handleElementFinishing(streamReader, context);
+                        } else if (EVENT_INCOMPLETE == eventId) {
+                            return context;
+                        } else {
+                            log.warn("The event with ID={} wasn't processed", eventId);
+                        }
+                    }
+                    return context;
+                })
+                .onFailure(ex -> log.warn("Error during reading", ex))
+                .getOrElseGet(ex -> context);
     }
 
     private ParseContext handleElementStarting(

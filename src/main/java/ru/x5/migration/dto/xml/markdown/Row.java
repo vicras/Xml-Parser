@@ -1,7 +1,9 @@
 package ru.x5.migration.dto.xml.markdown;
 
+import lombok.ToString;
 import ru.x5.migration.dto.xml.XmlFileObject;
 
+@ToString
 public class Row implements XmlFileObject {
     public String MARKDOWN_ID;
     public String MARKDOWN_CODE;
