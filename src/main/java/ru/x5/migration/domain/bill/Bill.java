@@ -1,4 +1,4 @@
-package ru.x5.migration.domain.billv2;
+package ru.x5.migration.domain.bill;
 
 import lombok.Getter;
 import lombok.Setter;

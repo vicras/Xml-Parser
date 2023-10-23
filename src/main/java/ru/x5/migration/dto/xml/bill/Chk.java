@@ -1,4 +1,4 @@
-package ru.x5.migration.dto.xml.billv2;
+package ru.x5.migration.dto.xml.bill;
 
 import ru.x5.migration.dto.xml.XmlFileObject;
 

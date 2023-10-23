@@ -1,11 +1,11 @@
-package ru.x5.migration.dto.xml.billv2.mapper;
+package ru.x5.migration.dto.xml.bill.mapper;
 
 import org.mapstruct.Mapper;
 import org.mapstruct.Mapping;
 import org.mapstruct.Named;
-import ru.x5.migration.domain.billv2.Bill;
+import ru.x5.migration.domain.bill.Bill;
 import ru.x5.migration.domain.inventory.TaskHOrdering;
-import ru.x5.migration.dto.xml.billv2.Chk;
+import ru.x5.migration.dto.xml.bill.Chk;
 
 import java.time.LocalDateTime;
 

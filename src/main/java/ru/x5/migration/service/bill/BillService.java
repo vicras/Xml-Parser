@@ -1,23 +1,23 @@
-package ru.x5.migration.service.billv2;
+package ru.x5.migration.service.bill;
 
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.stereotype.Service;
-import ru.x5.migration.dao.billv2.BillDao;
-import ru.x5.migration.domain.billv2.Bill;
+import ru.x5.migration.dao.bill.BillDao;
+import ru.x5.migration.domain.bill.Bill;
 import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.dto.xml.billv2.Root;
-import ru.x5.migration.dto.xml.billv2.mapper.BillV2Mapper;
+import ru.x5.migration.dto.xml.bill.Root;
+import ru.x5.migration.dto.xml.bill.mapper.BillV2Mapper;
 import ru.x5.migration.reader.XmlFileReader;
 
 import java.util.List;
 
 @Service
-public class BillV2Service {
+public class BillService {
     private final XmlFileReader reader;
     private final BillV2Mapper mapper;
     private final BillDao dao;
 
-    public BillV2Service(@Qualifier("billV2XmlReader") XmlFileReader reader, BillV2Mapper mapper, BillDao dao) {
+    public BillService(@Qualifier("billXmlReader") XmlFileReader reader, BillV2Mapper mapper, BillDao dao) {
         this.reader = reader;
         this.mapper = mapper;
         this.dao = dao;

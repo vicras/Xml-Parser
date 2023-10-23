@@ -7,13 +7,12 @@ import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
 import org.springframework.test.context.jdbc.Sql;
 import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.dto.xml.bill.Mt_chk;
-import ru.x5.migration.dto.xml.zzfo.IDOC;
+import ru.x5.migration.dto.xml.bill.Root;
 import ru.x5.migration.reader.XmlFileReader;
-import ru.x5.migration.service.zzfo.ZzfoService;
+import ru.x5.migration.service.bill.BillService;
 
 @SpringBootTest
-//@Sql(scripts = "db-clean-bill.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
+@Sql(scripts = "db-clean-bill.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
 class BillParserTests {
 
     private static final String FILE_NAME = "examples/bill/bill0.xml";
@@ -22,20 +21,31 @@ class BillParserTests {
     @Qualifier("billXmlReader")
     private XmlFileReader reader;
 
+    @Autowired
+    private BillService service;
+
     @Test
     void parseFullFile() {
         ParseContext parseContext = reader.read(FILE_NAME);
         Assertions.assertNotNull(parseContext);
         Assertions.assertEquals(1, parseContext.getResult().getParsedTags().size());
-        var optMt = parseContext.getResult().peekLastTag();
-        Assertions.assertTrue(optMt.isPresent());
-        var mt_chk = (Mt_chk) optMt.get();
-        Assertions.assertNotNull(mt_chk.headers);
-        Assertions.assertNotNull(mt_chk.headers.header);
-        Assertions.assertEquals(99, mt_chk.headers.header.size());
+        var optRoot = parseContext.getResult().peekLastTag();
+        Assertions.assertTrue(optRoot.isPresent());
+        var root = (Root) optRoot.get();
+        Assertions.assertNotNull(root.chk);
+        Assertions.assertEquals(9, root.chk.size());
+        var chk = root.chk.get(0);
+        Assertions.assertEquals("4060", chk.PLANT);
+        Assertions.assertEquals("094355", chk.TIME);
+        Assertions.assertEquals("0.00", chk.ZDISCOUNT);
+        Assertions.assertEquals("4060001001000000000001175042022081009:43", chk.BONID);
     }
 
     @Test
     void saveToDb() {
+        var proposals = service.parseXml(FILE_NAME);
+        Assertions.assertEquals(9, proposals.size());
+        Assertions.assertNotNull(proposals.get(2).getPlant());
+        System.out.println("End of test");
     }
 }

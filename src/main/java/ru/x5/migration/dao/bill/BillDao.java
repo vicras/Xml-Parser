@@ -1,11 +1,11 @@
-package ru.x5.migration.dao.billv2;
+package ru.x5.migration.dao.bill;
 
 import org.springframework.jdbc.core.namedparam.MapSqlParameterSource;
 import org.springframework.jdbc.core.namedparam.NamedParameterJdbcTemplate;
 import org.springframework.stereotype.Component;
 import org.springframework.transaction.annotation.Transactional;
 import ru.x5.migration.dao.BaseDao;
-import ru.x5.migration.domain.billv2.Bill;
+import ru.x5.migration.domain.bill.Bill;
 
 import java.util.List;
 

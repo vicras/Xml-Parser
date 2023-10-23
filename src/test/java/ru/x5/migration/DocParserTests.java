@@ -5,9 +5,7 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
-import org.springframework.test.context.jdbc.Sql;
 import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.dto.xml.bill.Mt_chk;
 import ru.x5.migration.dto.xml.doc.Mt_doc_conc;
 import ru.x5.migration.reader.XmlFileReader;
 
