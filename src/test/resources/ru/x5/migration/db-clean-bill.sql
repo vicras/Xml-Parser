@@ -1,1 +1,1 @@
-select * from sap.evsd_buffer limit 10
+delete from cash.chek;

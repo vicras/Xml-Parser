@@ -5,13 +5,14 @@ import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Qualifier;
 import org.springframework.boot.test.context.SpringBootTest;
+import org.springframework.test.context.jdbc.Sql;
 import ru.x5.migration.dto.context.ParseContext;
-import ru.x5.migration.dto.xml.bill.Mt_chk;
 import ru.x5.migration.dto.xml.billv2.Root;
 import ru.x5.migration.reader.XmlFileReader;
 import ru.x5.migration.service.billv2.BillV2Service;
 
 @SpringBootTest
+@Sql(scripts = "db-clean-bill.sql", executionPhase = Sql.ExecutionPhase.BEFORE_TEST_METHOD)
 class BillV2ParserTests {
 
     private static final String FILE_NAME = "examples/billv2/bill0.xml";
