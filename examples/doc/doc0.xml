@@ -1,7 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<nm:mt_doc_conc SOURCE="SAP_FOR_NQHQ" DESTINATION="NQHQ" FILEID="89060544" xmlns:nm="http://x5.ru:posx"
->
+<nm:mt_doc_conc SOURCE="SAP_FOR_NQHQ" DESTINATION="NQHQ" FILEID="89060544" xmlns:nm="http://x5.ru:posx">
+    <PUBLIC SHOP="shop_number"/>
     <DOC>
+
         <HEADER ID_HEADER="00000000002100008554" ID_DEPARTMENT="0000002676" ID_CLIENT="0000002676" ID_DOCTYPE="965"
                 STATUS="_" DT_CREATED="2021-08-29 07:53:41  " DOCNUMBER="26762100008554"/>
         <DETAILS>
